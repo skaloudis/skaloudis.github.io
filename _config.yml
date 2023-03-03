@@ -6,4 +6,4 @@ description: This website presents...
 
 markdown: kramdown
 # theme: minima
-theme: just-the-docs
+theme: "just-the-docs"
