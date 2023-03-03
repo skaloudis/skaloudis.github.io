@@ -1,5 +1,5 @@
-format: jb-book
-root: intro.md
+# format: jb-book
+# root: intro.md
 parts:
 - caption: Caption kefalaio 1
   numbered: true
