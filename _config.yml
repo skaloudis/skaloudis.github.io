@@ -5,4 +5,5 @@ logo: aegean_logo.png
 description: This website presents...
 
 markdown: kramdown
-theme: minima
+# theme: minima
+theme: just-the-docs
