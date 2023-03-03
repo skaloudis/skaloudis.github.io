@@ -1,7 +1,9 @@
 # Εφαρμογές Πληροφορικές και Υπολογιστικές Προσομειώσεις στην Αγροδιατροφή
 
 ## 1. Εισαγωγή στην Python
-
+### 1.1 κεφαλαιο 1.1
+#### 1.1.1 κεφαλαιο 1.1.1
+##### 1.1.1.1 κεφαλαιο 1.1.1.1
 To override the default structure and style of minima, simply create the concerned directory at the root of your site, copy the file you wish to customize to that directory, and then edit the file. e.g., to override the _includes/head.html file to specify a custom style path, create an _includes directory, copy _includes/head.html from minima gem folder to <yoursite>/_includes and start editing that file.
 
 The site's default CSS has now moved to a new place within the gem itself, assets/css/style.scss.
