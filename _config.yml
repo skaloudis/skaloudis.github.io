@@ -1,6 +1,3 @@
 # Build settngs
-title: Efarmoges Pliroforikis
-description: short description of your site's purpose
-
 markdown: kramdown
 theme: minima
