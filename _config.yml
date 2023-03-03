@@ -1,8 +1,8 @@
 # Build settngs
-title: Efarmoges Pliroforikis
+title: Εφαρμογές Πληροφορικής και Υπολογιστικές Προσομοιώσεις στην Επιστήμη Τροφίμων και Διατροφής
 author: Stathis Kaloudis
-logo: aegean_logo.png
-description: This website presents...
+logo: ./images/aegean_logo.png
+description: Τμήμα Επιστήμης Τροφίμων και Διατροφής
 
 markdown: kramdown
 # theme: minima
