@@ -1,5 +1,8 @@
 # Build settngs
 title: Efarmoges Pliroforikis
+author: Stathis Kaloudis
+logo: aegean_logo.png
+description: This website presents...
 
 markdown: kramdown
 theme: minima
