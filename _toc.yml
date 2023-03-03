@@ -1,0 +1,15 @@
+format: jb-book
+root: intro
+parts:
+- caption: Caption kefalaio 1
+  numbered: true
+  chapters:
+  - file: chapter1a.md
+  - file: chapter1b.md
+
+  
+- caption: Caption kefalaio 1
+  numbered: true 
+  chapters:
+  - file: chapter2a.md
+  - file: chapter2b.md
