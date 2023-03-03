@@ -8,7 +8,7 @@ parts:
   - file: chapter1b.md
 
   
-- caption: Caption kefalaio 1
+- caption: Caption kefalaio 2
   numbered: true 
   chapters:
   - file: chapter2a.md
