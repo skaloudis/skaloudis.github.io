@@ -40,6 +40,6 @@
 
 
     
-[Link to another page md](./chapter1b.md)
+[Link to another page md](./chapter_1.md)
     
     
