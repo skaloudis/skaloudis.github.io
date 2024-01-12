@@ -1,8 +1,8 @@
 # Build settngs
-title: Εφαρμογές Πληροφορικής και Υπολογιστικές Προσομοιώσεις στην Επιστήμη Τροφίμων και Διατροφής
+title: Μαθηματικά
 author: Stathis Kaloudis
 logo: ./images/aegean_logo.png
-description: Τμήμα Επιστήμης Τροφίμων και Διατροφής
+description: Τμήμα Επιστήμης Τροφίμων και Διατροφής - Πανεπιστήμιο Αιγαίου
 
 markdown: kramdown
 # theme: minima
