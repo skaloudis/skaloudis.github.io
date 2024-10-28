@@ -1,32 +1,12 @@
-# Κεφάλαιο 2
+<script type="text/javascript" charset="utf-8" 
+src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML,
+https://vincenttam.github.io/javascripts/MathJaxLocal.js"></script>
+
+# Κεφάλαιο 2 - ΄Ορια Συναρτήσεων
 
 [επιστροφή στα περιεχόμενα](./README.md)
 
 
-<div id='id-section-toc'/>
-
-## Περιεχόμενα
-- [Κεφάλαιο 2 - ΄Ορια Συναρτήσεων](#id-section2)
-    - [Άσκηση 2.1](#id-section-2-1)
-    - [Άσκηση 2.2](#id-section-2-2)
-    - [Άσκηση 2.3](#id-section-2-3)
-    - [Άσκηση 2.4](#id-section-2-4)
-    - [Άσκηση 2.5](#id-section-2-5)
-    - [Άσκηση 2.6](#id-section-2-6)
-    - [Άσκηση 2.7](#id-section-2-7)
-    - [Άσκηση 2.8](#id-section-2-8)
-    - [Άσκηση 2.9](#id-section-2-9)
-
-
-</br></br></br>
-
-<div id='id-section-2'/>
-
-# Κεφάλαιο 2 - ΄Ορια Συναρτήσεων
-
-
-
-<div id='id-section-2-1'/>
 
 ## Άσκηση 2.1
 
