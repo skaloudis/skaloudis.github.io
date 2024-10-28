@@ -5,6 +5,8 @@ https://vincenttam.github.io/javascripts/MathJaxLocal.js"></script>
 
 # Κεφάλαιο 1 - Συναρτήσεις
 
+[Επιστροφή στην αρχική σελίδα](./README.md)
+
 ## Άσκηση 1.1
 
 **Περιγραφή**
@@ -248,5 +250,4 @@ $$f(x)=\left\{ \begin{aligned}
 * Για $x_1 < 0 < x_2 \Rightarrow x_1 < x_2^2 \Rightarrow f(x_1) < f(x_2) \rightarrow$ Γνησίως αύξουσα
 
 
-
-## [Περιεχόμενα](./README.md)
+[Επιστροφή στην αρχική σελίδα](./README.md)
