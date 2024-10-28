@@ -18,8 +18,7 @@ $ f(x)=\dfrac{x}{x+2}$
 
 $f(x)=\dfrac{x}{x+2}$ άρα πεδίο ορισμού το $(-\infty,-2)\cup(-2,+\infty)$.
 
-Για την εύρεση του συνόλου τιμών αναζητούμε τις τιμές του $y$ για τις
-οποίες η $f(x)=y$ έχει λύση ως προς $x$ στο πεδίο ορισμού $(-\infty,-2)\cup(-2,+\infty)$.
+Για την εύρεση του συνόλου τιμών αναζητούμε τις τιμές του $y$ για τις οποίες η $f(x)=y$ έχει λύση ως προς $x$ στο πεδίο ορισμού $(-\infty,-2)\cup(-2,+\infty)$.
 
 $\dfrac{x}{x+2}=y \Rightarrow$
 
@@ -58,7 +57,7 @@ $\Delta=(-1)^2 - 4\cdot2\cdot1 = 1-8=-7<0$.
 
  Άρα δεν υπάρχουν τιμές που να μηδενίζουν το πολυώνυμο.
 
-Επομένως $x^2-x+2 \neq 0 \quad \forall x \in \mathbb{R}$ δηλαδή πεδίο ορισμού το $\mathbb{R}$.
+Επομένως $x^2-x+2 \neq 0 \quad \forall x \in \mathbb{R}$, δηλαδή πεδίο ορισμού το $\mathbb{R}$.
 
 Για την εύρεση του συνόλου τιμών αναζητούμε τις τιμές του $y$ για τις οποίες η $f(x)=y$ έχει λύση ως προς $x$ στο πεδίο ορισμού $\mathbb{R}$.
 
@@ -71,13 +70,15 @@ $x^2 + x +4=y(x^2-x+2) \Rightarrow$
 $(1-y)x^2 + (1+y)x+4-2y=0$ (1)
 
 
-* Αν $y=1$ τότε (1) $\Rightarrow 2x+4-2=0\Rightarrow x=-1$. </br> Το $-1\in \mathbb{R}$ επομένως η $y=1 \in f(A)$.
-* Αν $y=\neq 1$ τότε (1) έχει λύση στο $\mathbb{R}$ αν $\Delta \geq 0$ </br>
-$\Rightarrow (1+y)^2 - 4(4-2y)(1-y) \geq 0$ </br>
-$\Rightarrow 1+y^2+2y-4(4-4y-2y+2y^2)\geq 0$ </br>
-$\Rightarrow 1+y^2+2y-16+24y-8y^2 \geq 0$ </br>
-$\Rightarrow -7y^2+26y-15 \geq 0$ </br>
-$\Rightarrow \frac{5}{7} \leq y \leq 3$ </br>
+* Αν $y=1$ τότε (1) $\Rightarrow 2x+4-2=0\Rightarrow x=-1$.  
+Το $-1\in \mathbb{R}$ επομένως η $y=1 \in f(A)$.
+
+* Αν $y\neq 1$ τότε (1) έχει λύση στο $\mathbb{R}$ αν $\Delta \geq 0$  
+$\Rightarrow (1+y)^2 - 4(4-2y)(1-y) \geq 0$  
+$\Rightarrow 1+y^2+2y-4(4-4y-2y+2y^2)\geq 0$  
+$\Rightarrow 1+y^2+2y-16+24y-8y^2 \geq 0$  
+$\Rightarrow -7y^2+26y-15 \geq 0$  
+$\Rightarrow \frac{5}{7} \leq y \leq 3$  
 $\Rightarrow f(A) = [ \dfrac{5}{7},3]$ περιλαμβάνει το $y=1$
 
 ---
