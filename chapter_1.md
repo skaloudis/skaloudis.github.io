@@ -5,10 +5,6 @@ https://vincenttam.github.io/javascripts/MathJaxLocal.js"></script>
 
 # Κεφάλαιο 1 - Συναρτήσεις
 
-[επιστροφή στα περιεχόμενα](./README.md)
-
-
-
 ## Άσκηση 1.1
 
 **Περιγραφή**
@@ -43,7 +39,7 @@ $2y=-2+2y$ αδύνατο
 
 Επομένως το σύνολο τιμών είναι $f(A)=(-\infty,1)\cup(1,+\infty)$
 
-
+---
 
 ## Άσκηση 1.2
 
@@ -82,7 +78,7 @@ $\Rightarrow -7y^2+26y-15 \geq 0$ </br>
 $\Rightarrow \frac{5}{7} \leq y \leq 3$ </br>
 $\Rightarrow f(A) = [ \dfrac{5}{7},3]$ περιλαμβάνει το $y=1$
 
-
+---
 
 ## Άσκηση 1.3
 
@@ -102,7 +98,7 @@ $f(x)=\sqrt{1-x^2} + \sqrt{x^2-1}$
 
 $f(1)=f(-1)=0$ επομένως πεδίο τιμών $f(A)=0$
 
-
+---
 
 ## Άσκηση 1.4
 
@@ -133,7 +129,7 @@ $\Leftrightarrow x=3$
 
 Επομένως το σύστημα έχει λύση $(3,f(3))$ ή $(3,2)$ 
 
-
+---
 
 ## Άσκηση 1.5
 
@@ -150,7 +146,7 @@ $\Leftrightarrow x=3$
 
 Άρα $f(x)=g(x)$ στο $(-\infty,-2)\cup(-2,2)\cup(2,+\infty)$
 
-
+---
 
 ## Άσκηση 1.6
 
@@ -175,8 +171,7 @@ $\Rightarrow x<0$ και $x\geq1$
 
 Άρα $f(x)=g(x)$ στο $[1,+\infty)$
 
-
-
+---
 
 ## Άσκηση 1.7
 
@@ -200,7 +195,7 @@ $$(g \circ f)(x) = |x+5| =
 \end{aligned} \right.$$ 
 Άρα $(g \circ f)(4) = 4+5=9$
 
-
+---
 
 ## Άσκηση 1.8
 
@@ -233,7 +228,7 @@ $\Rightarrow \dfrac{2}{x_1-1} < \dfrac{2}{x_2-1}$ </br>
 $\Rightarrow f(x_1)<f(x_2)$ </br>
 $\Rightarrow$ Γνησίως αύξουσα
 
-
+---
 
 ## Άσκηση 1.9
 
@@ -252,3 +247,6 @@ $$f(x)=\left\{ \begin{aligned}
 * Για $x_1, x_2 \geq 0, \; x_1<x_2 \Rightarrow x_1^2 < x_2^2 \Rightarrow f(x_1) < f(x_2) \rightarrow$ Γνησίως αύξουσα
 * Για $x_1 < 0 < x_2 \Rightarrow x_1 < x_2^2 \Rightarrow f(x_1) < f(x_2) \rightarrow$ Γνησίως αύξουσα
 
+
+
+## [Περιεχόμενα](./README.md)
