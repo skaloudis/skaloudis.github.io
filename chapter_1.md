@@ -244,10 +244,10 @@ $\Rightarrow$ Γνησίως αύξουσα
 Να βρεθεί η μονοτονία της συνάρτησης 
 $$
 f(x)=\left\{ 
-\\begin{aligned}
-& x, \; x<0  \\\\
+\begin{aligned}
+& x, \; x<0  \\
 & x^2, \; x \geq 0
-\\end{aligned} 
+\end{aligned} 
 \right.
 $$
 

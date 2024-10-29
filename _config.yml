@@ -3,9 +3,10 @@ title: Μαθηματικά
 author: Stathis Kaloudis
 logo: ./images/aegean_logo.png
 description: Τμήμα Επιστήμης Τροφίμων και Διατροφής - Πανεπιστήμιο Αιγαίου
+show_downloads: false
 
 markdown: kramdown
 # theme: minima
-remote_theme: pages-themes/leap-day@v0.2.0
+remote_theme: pages-themes/slate@v0.2.0
 plugins:
 - jekyll-remote-theme # add this line to the plugins list if you already have one
