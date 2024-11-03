@@ -12,7 +12,7 @@ https://vincenttam.github.io/javascripts/MathJaxLocal.js"></script>
 
 **Περιγραφή**
 
-Να βρεθεί η παράγωγος των συναρτήσεων στο $x_o$
+Να βρεθεί η παράγωγος των συναρτήσεων στο $x_o$.
 
 α) $f(x)=\ln x \quad , \; x_{0}=2$
 
@@ -65,11 +65,13 @@ $$f^{\prime}(1)=2 \cdot 1 \ln 1+\frac{1+1}{1}=2 \cdot 0+2=2$$
 **Λύση**
 
 α)
+
 $$f(x)=\ln \left(x^{2}-1\right)$$
 
 $$f^{\prime}(x)=\frac{1}{x^{2}-1}\left(x^{2}-1\right)^{\prime}=\frac{2 x}{x^{2}-1}$$
 
 β)
+
 $$ f(x)=\sqrt{2 x^{2}-x+3} $$
 
 $$ f^{\prime}(x)=\left(\sqrt{2 x^{2}-x+3}\right)^{\prime}=\frac{1}{2 \sqrt{2 x^{2}-x+3}}\left(2 x^{2}-x+3\right)^{\prime}=\frac{4 x-1}{2 \sqrt{2 x^{2}-x+3}}$$
@@ -92,19 +94,26 @@ $$ f^{\prime}(x)=\left(\sqrt{2 x^{2}-x+3}\right)^{\prime}=\frac{1}{2 \sqrt{2 x^{
 
 Πεδίο ορισμού $A=[0,+\infty]$
 
-Αν $$ x \in(0,+\infty) \rightarrow f^{\prime}(x)=\left(\sqrt[3]{x^{2}}+\sqrt{x^{3}}\right)^{\prime}=\left(x^{2 / 3}+x^{3 / 2}\right)^{\prime}=\frac{2 x^{-1 / 3}}{3}+\frac{3 x^{1 / 2}}{2}=\frac{2}{3 \sqrt[3]{x}}+\frac{3}{2} \sqrt{x} $$
+Αν 
 
-Αν $$ x=0 \rightarrow \lim _{x \rightarrow 0^{+}} \frac{f(x)-f(0)}{x-0}=\lim _{x \rightarrow 0^{+}} \frac{x^{2 / 3}+x^{3 / 2}}{x}=\lim _{x \rightarrow 0^{+}} \frac{1}{\sqrt[3]{x}}+\lim _{x \rightarrow 0^{+}} \sqrt{x}=+\infty $$
+$$ x \in(0,+\infty) \rightarrow f^{\prime}(x)=\left(\sqrt[3]{x^{2}}+\sqrt{x^{3}}\right)^{\prime}=\left(x^{2 / 3}+x^{3 / 2}\right)^{\prime}=\frac{2 x^{-1 / 3}}{3}+\frac{3 x^{1 / 2}}{2}=\frac{2}{3 \sqrt[3]{x}}+\frac{3}{2} \sqrt{x} $$
+
+Αν 
+
+$$ x=0 \rightarrow \lim _{x \rightarrow 0^{+}} \frac{f(x)-f(0)}{x-0}=\lim _{x \rightarrow 0^{+}} \frac{x^{2 / 3}+x^{3 / 2}}{x}=\lim _{x \rightarrow 0^{+}} \frac{1}{\sqrt[3]{x}}+\lim _{x \rightarrow 0^{+}} \sqrt{x}=+\infty $$
 
 Επομένως η $f$ δεν είναι παραγωγίσιμη στο $x_0=0$
 
 
 β)
-$f(x)=\sqrt[4]{2 x-6} \rightarrow 2x-6 \geq 0 \Rightarrow x \geq 3$ Συνεπώς πεδίο ορισμού το $A=[3,+\infty)$
+$f(x)=\sqrt[4]{2 x-6} \rightarrow 2x-6 \geq 0 \Rightarrow x \geq 3$ 
+
+Συνεπώς πεδίο ορισμού το $A=[3,+\infty)$
 
 Αν $x \neq 3 \rightarrow f^{\prime}(x)=(\sqrt[4]{2 x-6})^{\prime}=\left[(2 x-6)^{1 / 4}\right]^{\prime}=\frac{1}{4}(2 x-6)^{-3 / 4} \cdot(2 x-6)^{\prime}=\frac{1}{4} \frac{1}{\sqrt[4]{(2 x-6)^{3}}} \cdot 2=\frac{1}{2 \sqrt[4]{(2 x-6)^{3}}}$
 
 Αν $x=3 \rightarrow$ 
+
 $$\lim _{x \rightarrow 3^{+}} \frac{f(x)-t(3)}{x-3}=\lim _{x \rightarrow 3^{+}} \frac{\sqrt[4]{2 x-6}}{x-3}=\sqrt[4]{2} \cdot \lim _{x \rightarrow 3^{+}} \frac{\sqrt[4]{x-3}}{x-3}=\sqrt[4]{2} \cdot \lim _{x \rightarrow 3^{+}} \frac{1}{\sqrt[4]{(x-3)^{3}}}=\sqrt[4]{2} \cdot(+\infty)=+\infty$$
 
 Επομένως η $f$ δεν είναι παραγωγίσιμη στο $x_0=3$
@@ -133,11 +142,10 @@ $$
 f^{\prime}(x)=\left(\frac{x}{1+x^{2}}\right)^{\prime}=\frac{(x)^{\prime}\left(1+x^{2}\right)-x\left(1+x^{2}\right)^{\prime}}{\left(1+x^{2}\right)^{2}}=
 $$
 
-$$
-=\frac{1+x^{2}-2 x^{2}}{\left(1+x^{2}\right)^{2}}=
+$$ =\frac{1+x^{2}-2 x^{2}}{\left(1+x^{2}\right)^{2}}=
 \frac{1-x^{2}}{\left(1+x^{2}\right)^{2}}=
-\frac{(1-x)(1+x)}{(1+x^2)^2}
-$$
+\frac{(1-x)(1+x)}{(1+x^2)^2} $$
+
 Άρα $x_1=-1$ και $x_2=1$
 
 
@@ -176,14 +184,17 @@ $x+1>0 \Rightarrow x>-1$
 $$
 f'(x)=\left( \frac{x^2}{\sqrt{x+1}} \right)' =
 $$
+
 $$
 \frac{(x^2)' \sqrt{x+1} - x^2 (\sqrt{x+1})'}{(\sqrt{x+1})^2}=
 \frac{2x\sqrt{x+1} -x^2 \frac{(x+1)'}{2\sqrt{x+1}}}{(\sqrt{x+1})^2}=
 $$
+
 $$
 =\frac{2 x \sqrt{x+1}-\frac{x^{2}}{2 \sqrt{x+1}}}{x+1}=
 \frac{4 x(x+1)-x^{2}}{2 \sqrt{x+1}(x+1)}=
 $$
+
 $$
 =\frac{3 x^{2}+4 x}{2(x+1)^{3 / 2}}=
 \frac{x(3 x+4)}{2(x+1)^{3 / 2}}
@@ -227,8 +238,8 @@ $$\frac{3 x^{2}+8 x+8}{4(x+1)^{5 / 2}}$$
 $3 x^{2}-8 x+8=0 \Rightarrow \Delta=64-4 \cdot 8 \cdot 3=-32<0$, 
 $f''(x)>0$, $(x+1)^{5 / 2}>0$
 
-
-\begin{tabular}{c|ccccc}
+$$
+\begin{array}{c|ccccc}
 $x$ & $-1$ & & 0 & &$+\infty$ \\
 \hline
 $f'$ & &$-$ & 0& $+$ &  \\
@@ -237,7 +248,7 @@ $f''$ & &$+$ & |& $+$ &  \\
 \hline
 $f$ & &$\searrow$ & |&$\nearrow$ &  \\
 \hline
-\end{tabular}
+\end{array}
 
 Επομένως η $f$ είναι γνησίως φθίνουσα στο $(-1,0]$ και γνησίως αύξουσα στο $[0, +\infty)$. \\
 Είναι κυρτή στο $(-1, +\infty)$.\\
