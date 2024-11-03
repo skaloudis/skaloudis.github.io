@@ -94,29 +94,31 @@ $$ f^{\prime}(x)=\left(\sqrt{2 x^{2}-x+3}\right)^{\prime}=\frac{1}{2 \sqrt{2 x^{
 
 **Λύση**
 
-α) $f(x)=\sqrt[3]{x^2} + \sqrt{x^3}$ 
+**α)** $f(x)=\sqrt[3]{x^2} + \sqrt{x^3}$ 
 
 Πεδίο ορισμού $A=[0,+\infty]$
 
-Αν 
+Αν $x \in(0,+\infty)$ τότε
 
-$$ x \in(0,+\infty) \rightarrow f^{\prime}(x)=\left(\sqrt[3]{x^{2}}+\sqrt{x^{3}}\right)^{\prime}=\left(x^{2 / 3}+x^{3 / 2}\right)^{\prime}=\frac{2 x^{-1 / 3}}{3}+\frac{3 x^{1 / 2}}{2}=\frac{2}{3 \sqrt[3]{x}}+\frac{3}{2} \sqrt{x} $$
+$$ f^{\prime}(x)=\left(\sqrt[3]{x^{2}}+\sqrt{x^{3}}\right)^{\prime}=\left(x^{2 / 3}+x^{3 / 2}\right)^{\prime}=\frac{2 x^{-1 / 3}}{3}+\frac{3 x^{1 / 2}}{2}=\frac{2}{3 \sqrt[3]{x}}+\frac{3}{2} \sqrt{x} $$
 
-Αν 
+Αν $x=0$ τότε
 
-$$ x=0 \rightarrow \lim _{x \rightarrow 0^{+}} \frac{f(x)-f(0)}{x-0}=\lim _{x \rightarrow 0^{+}} \frac{x^{2 / 3}+x^{3 / 2}}{x}=\lim _{x \rightarrow 0^{+}} \frac{1}{\sqrt[3]{x}}+\lim _{x \rightarrow 0^{+}} \sqrt{x}=+\infty $$
+$$ \lim _{x \rightarrow 0^{+}} \frac{f(x)-f(0)}{x-0}=\lim _{x \rightarrow 0^{+}} \frac{x^{2 / 3}+x^{3 / 2}}{x}=\lim _{x \rightarrow 0^{+}} \frac{1}{\sqrt[3]{x}}+\lim _{x \rightarrow 0^{+}} \sqrt{x}=+\infty $$
 
 Επομένως η $f$ δεν είναι παραγωγίσιμη στο $x_0=0$
 
 
-β)
-$f(x)=\sqrt[4]{2 x-6} \rightarrow 2x-6 \geq 0 \Rightarrow x \geq 3$ 
+**β)** 
+$f(x)=\sqrt[4]{2 x-6} \Rightarrow 2x-6 \geq 0 \Rightarrow x \geq 3$ 
 
 Συνεπώς πεδίο ορισμού το $A=[3,+\infty)$
 
-Αν $x \neq 3 \rightarrow f^{\prime}(x)=(\sqrt[4]{2 x-6})^{\prime}=\left[(2 x-6)^{1 / 4}\right]^{\prime}=\frac{1}{4}(2 x-6)^{-3 / 4} \cdot(2 x-6)^{\prime}=\frac{1}{4} \frac{1}{\sqrt[4]{(2 x-6)^{3}}} \cdot 2=\frac{1}{2 \sqrt[4]{(2 x-6)^{3}}}$
+Αν $x \neq 3$ τότε
 
-Αν $x=3 \rightarrow$ 
+$$f^{\prime}(x)=(\sqrt[4]{2 x-6})^{\prime}=\left[(2 x-6)^{1 / 4}\right]^{\prime}=\frac{1}{4}(2 x-6)^{-3 / 4} \cdot(2 x-6)^{\prime}=\frac{1}{4} \frac{1}{\sqrt[4]{(2 x-6)^{3}}} \cdot 2=\frac{1}{2 \sqrt[4]{(2 x-6)^{3}}}$$
+
+Αν $x=3$ τότε 
 
 $$\lim _{x \rightarrow 3^{+}} \frac{f(x)-t(3)}{x-3}=\lim _{x \rightarrow 3^{+}} \frac{\sqrt[4]{2 x-6}}{x-3}=\sqrt[4]{2} \cdot \lim _{x \rightarrow 3^{+}} \frac{\sqrt[4]{x-3}}{x-3}=\sqrt[4]{2} \cdot \lim _{x \rightarrow 3^{+}} \frac{1}{\sqrt[4]{(x-3)^{3}}}=\sqrt[4]{2} \cdot(+\infty)=+\infty$$
 
