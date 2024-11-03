@@ -249,6 +249,7 @@ $f''$ & &$+$ & |& $+$ &  \\
 $f$ & &$\searrow$ & |&$\nearrow$ &  \\
 \hline
 \end{array}
+$$
 
 Επομένως η $f$ είναι γνησίως φθίνουσα στο $(-1,0]$ και γνησίως αύξουσα στο $[0, +\infty)$. \\
 Είναι κυρτή στο $(-1, +\infty)$.\\
@@ -298,32 +299,19 @@ f  &              & \nearrow & | & \searrow &| &\searrow & | & \nearrow\\
 $$
 
 
-Η $f''(x)$ δεν ορίζεται στο $x_0=0$ επομένως το $x_0=0$ αλλάζει το πρόσημο της $f''$.\\
-Επομένως η f είναι γνησίως αύξουσα στα $(-\infty,-1]$ και $[1, +\infty)$ και γνησίως φθίνουσα στα διαστήματα [-1,0) και (0,1]. \\
-Είναι κοίλη στο $(-\infty,0)$ και κυρτή στο $(0,+\infty)$. \\
-Τοπικό Μέγιστο στο x=-1 το f(-1)=-2 : (-1,-2) \\
-Τοπικό Ελάχιστο στο x=1 το f(1)=2 : (1,2) \\
+Η $f''(x)$ δεν ορίζεται στο $x_0=0$ επομένως το $x_0=0$ αλλάζει το πρόσημο της $f''$.
+
+Επομένως η f είναι γνησίως αύξουσα στα $(-\infty,-1]$ και $[1, +\infty)$ και γνησίως φθίνουσα στα διαστήματα [-1,0) και (0,1]. 
+
+Είναι κοίλη στο $(-\infty,0)$ και κυρτή στο $(0,+\infty)$. 
+
+Τοπικό Μέγιστο στο x=-1 το f(-1)=-2 : (-1,-2) 
+
+Τοπικό Ελάχιστο στο x=1 το f(1)=2 : (1,2) 
+
 Το $x_0=0$ δεν αποτελεί σημείο καμπής εφόσον δεν ανήκει στο πεδίο ορισμού της $f$.
 
 
-
-%$$
-%\begin{array}{l}
-%\lim _{x \rightarrow 0^{-}} f(x)=\lim _{x \rightarrow 0^{-}}\left(x+\frac{1}{x}\right)=0-\infty=-\infty \\
-%\lim _{x \rightarrow 0^{+}} f(x)=\lim _{x \rightarrow 0^{+}}\left(x+\frac{1}{x}\right)=0+\infty=+\infty
-%\end{array} 
-%$$
-%Συνεπώς $x=0$ κατακόρυφη ασύμπτωτη.
-%$$
-%\begin{array}{l}
-%\lim _{x \rightarrow+\infty} \frac{f(x)}{x}=\lim _{x \rightarrow+\infty} \frac{x^{2}+1}{x^{2}}=1 \\
-%\lim _{x \rightarrow+\infty}(f(x)-x)=\lim _{x \rightarrow+\infty} \frac{1}{x}=0
-%\end{array} 
-%$$
-%
-%
-%
-%H $y=x$ είναι πλάγια ασύμπτωτη όταν το $x$ τείνει στο $-\infty$ και στο $+\infty$
 
 
 ---
@@ -342,9 +330,11 @@ b. $\lim _{x \rightarrow+\infty} \frac{\ln x}{x^{k}}$ για $k>0$
 **Λύση**
 
 a.  
+
 $$\lim _{x \rightarrow 0} \frac{e^{x}-1}{x}=\lim _{x \rightarrow 0} \frac{\left(e^{x}-1\right)^{\prime}}{(x)^{\prime}}=\lim _{x \rightarrow 0} \frac{e^{x}}{1}=1 $$
 
 b. 
+
 $$\lim _{x \rightarrow+\infty} \frac{\ln x}{x^{k}}=
 \lim _{x \rightarrow+\infty} \frac{(\ln x)^{\prime}}{\left(x^{k}\right)^{\prime}}
 =\lim _{x \rightarrow+\infty} \frac{\frac{1}{x}}{k x^{k-1}}=
@@ -366,6 +356,7 @@ $$\lim _{x \rightarrow 0} \frac{4 \eta \mu x} {7x-2x^2}$$
 
 $$
 \lim _{x \rightarrow 0} \frac{4 \eta \mu x} {7x-2x^2}=
+\lim _{x \rightarrow 0} \frac{(4 \eta \mu x)'} {(7x-2x^2)'}=
 \lim _{x \rightarrow 0} \frac{4 \sigma \upsilon \nu 4 x} {7-4x} = 
 \frac{4 \sigma \upsilon \nu (4 \cdot 0)} {7-4 \cdot 0}=
 \frac{4}{7}
