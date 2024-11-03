@@ -11,6 +11,7 @@ https://vincenttam.github.io/javascripts/MathJaxLocal.js"></script>
 ## Άσκηση 3.1
 
 **Περιγραφή**
+
 Να βρεθεί η παράγωγος των συναρτήσεων στο $x_o$
 
 α) $f(x)=\ln x \quad , \; x_{0}=2$
@@ -20,18 +21,10 @@ https://vincenttam.github.io/javascripts/MathJaxLocal.js"></script>
 **Λύση**
 
 α) 
-$$
-f(x)=\ln x \Rightarrow 
-f^{\prime}(x)=\frac{1}{x}  \Rightarrow 
-f^{\prime}(2)=\frac{1}{2}
-$$
+$$ f(x)=\ln x \Rightarrow f^{\prime}(x)=\frac{1}{x}  \Rightarrow f^{\prime}(2)=\frac{1}{2} $$
 
 β)
-$$
-f(x)=\sqrt{x} \Rightarrow
-f^{\prime}(x)=\dfrac{1}{2 \sqrt{x}} \Rightarrow 
-f^{\prime}(4)=\frac{1}{2 \sqrt{4}}=\frac{1}{4}
-$$
+$$ f(x)=\sqrt{x} \Rightarrow f^{\prime}(x)=\dfrac{1}{2 \sqrt{x}} \Rightarrow f^{\prime}(4)=\frac{1}{2 \sqrt{4}}=\frac{1}{4} $$
 
 ---
 
@@ -62,9 +55,9 @@ $$f^{\prime}(1)=2 \cdot 1 \ln 1+\frac{1+1}{1}=2 \cdot 0+2=2$$
 
 Να βρεθεί η παράγωγος των συναρτήσεων
 
-α) $f(x)=\ln \left(x^{2}-1\right)$
+α) $$ f(x)=\ln \left(x^{2}-1\right) $$
 
-β) $f(x)=\sqrt{2 x^{2}-x+3}$
+β) $$ f(x)=\sqrt{2 x^{2}-x+3} $$
 
 
 **Λύση**
@@ -97,9 +90,9 @@ $$ f^{\prime}(x)=\left(\sqrt{2 x^{2}-x+3}\right)^{\prime}=\frac{1}{2 \sqrt{2 x^{
 
 Πεδίο ορισμού $A=[0,+\infty]$
 
-Αν $x \in(0,+\infty) \rightarrow f^{\prime}(x)=\left(\sqrt[3]{x^{2}}+\sqrt{x^{3}}\right)^{\prime}=\left(x^{2 / 3}+x^{3 / 2}\right)^{\prime}=\frac{2 x^{-1 / 3}}{3}+\frac{3 x^{1 / 2}}{2}=\frac{2}{3 \sqrt[3]{x}}+\frac{3}{2} \sqrt{x}$
+Αν $$ x \in(0,+\infty) \rightarrow f^{\prime}(x)=\left(\sqrt[3]{x^{2}}+\sqrt{x^{3}}\right)^{\prime}=\left(x^{2 / 3}+x^{3 / 2}\right)^{\prime}=\frac{2 x^{-1 / 3}}{3}+\frac{3 x^{1 / 2}}{2}=\frac{2}{3 \sqrt[3]{x}}+\frac{3}{2} \sqrt{x} $$
 
-Αν $x=0 \rightarrow \lim _{x \rightarrow 0^{+}} \frac{f(x)-f(0)}{x-0}=\lim _{x \rightarrow 0^{+}} \frac{x^{2 / 3}+x^{3 / 2}}{x}=\lim _{x \rightarrow 0^{+}} \frac{1}{\sqrt[3]{x}}+\lim _{x \rightarrow 0^{+}} \sqrt{x}=+\infty$
+Αν $$ x=0 \rightarrow \lim _{x \rightarrow 0^{+}} \frac{f(x)-f(0)}{x-0}=\lim _{x \rightarrow 0^{+}} \frac{x^{2 / 3}+x^{3 / 2}}{x}=\lim _{x \rightarrow 0^{+}} \frac{1}{\sqrt[3]{x}}+\lim _{x \rightarrow 0^{+}} \sqrt{x}=+\infty $$
 
 Επομένως η $f$ δεν είναι παραγωγίσιμη στο $x_0=0$
 
@@ -121,13 +114,14 @@ $$\lim _{x \rightarrow 3^{+}} \frac{f(x)-t(3)}{x-3}=\lim _{x \rightarrow 3^{+}} 
 **Περιγραφή**
 
 Να εξεταστεί ως προς τη μονοτονία η συνάρτηση
-$$
-f(x)=\frac{x}{1+x^{2}}
-$$
+
+$$ f(x)=\frac{x}{1+x^{2}} $$
 
 **Λύση**
 
-$1+x^2 \neq 0$ Ισχύει για κάθε $x \in \mathbb{R}$. Συνεπώς το πεδίο ορισμού είναι το $\mathbb{R}$.
+$1+x^2 \neq 0$ Ισχύει για κάθε $x \in \mathbb{R}$. 
+
+Συνεπώς το πεδίο ορισμού είναι το $\mathbb{R}$.
 
 Η $f$ είναι συνεχής ως ρητή συνάρτηση.
 
@@ -196,10 +190,9 @@ $$
 Αναζητούμε τα τοπικά ακρότατα στις ρίζες της $f'(x)=0$ και τα σημεία όπου δεν υπάρχει η $f'(x)$
 
 Τοπικά ακρότατα: 
-\begin{itemize}
-\item $f^{\prime}(x)=0 \Rightarrow x_{1}=0 \; , \; x_{2}=-4 / 3$. Το $x=-\frac{4}{3}$ δεν ανήκει στο πεδίο ορισμού της f, επομένως δεν αποτελεί τοπικό ακρότατο. 
-\item $x_{2}=-1$
-\end{itemize}
+* $f^{\prime}(x)=0 \Rightarrow x_{1}=0 \; , \; x_{2}=-4 / 3$. Το $x=-\frac{4}{3}$ δεν ανήκει στο πεδίο ορισμού της f, επομένως δεν αποτελεί τοπικό ακρότατο. 
+* $x_{2}=-1$
+
 
 
 $$
