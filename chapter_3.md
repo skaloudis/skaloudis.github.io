@@ -21,10 +21,12 @@ https://vincenttam.github.io/javascripts/MathJaxLocal.js"></script>
 **Λύση**
 
 α) 
-$$ f(x)=\ln x \Rightarrow f^{\prime}(x)=\frac{1}{x}  \Rightarrow f^{\prime}(2)=\frac{1}{2} $$
+
+$$f(x)=\ln x \Rightarrow f^{\prime}(x)=\frac{1}{x}  \Rightarrow f^{\prime}(2)=\frac{1}{2}$$
 
 β)
-$$ f(x)=\sqrt{x} \Rightarrow f^{\prime}(x)=\dfrac{1}{2 \sqrt{x}} \Rightarrow f^{\prime}(4)=\frac{1}{2 \sqrt{4}}=\frac{1}{4} $$
+
+$$f(x)=\sqrt{x} \Rightarrow f^{\prime}(x)=\dfrac{1}{2 \sqrt{x}} \Rightarrow f^{\prime}(4)=\frac{1}{2 \sqrt{4}}=\frac{1}{4}$$
 
 ---
 
@@ -55,9 +57,9 @@ $$f^{\prime}(1)=2 \cdot 1 \ln 1+\frac{1+1}{1}=2 \cdot 0+2=2$$
 
 Να βρεθεί η παράγωγος των συναρτήσεων
 
-α) $$ f(x)=\ln \left(x^{2}-1\right) $$
+α) $ f(x)=\ln \left(x^{2}-1\right) $
 
-β) $$ f(x)=\sqrt{2 x^{2}-x+3} $$
+β) $ f(x)=\sqrt{2 x^{2}-x+3} $
 
 
 **Λύση**
