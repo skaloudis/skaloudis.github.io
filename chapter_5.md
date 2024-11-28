@@ -213,6 +213,7 @@ $$
 $$
 |\vec{\gamma}|=|2 \vec{\alpha}+\vec{b}| \Leftrightarrow|\vec{\gamma}|^{2}=(2 \vec{\alpha}+\vec{b})^{2}=4 \vec{\alpha}^{2}+\vec{b}^{2}=5|\vec{\alpha}|^{2} 
 $$
+
 $$
 |\vec{\delta}|=|\vec{\alpha}-2 \vec{b}| \Leftrightarrow|\overrightarrow{\delta}|^{2}=(\vec{\alpha}-2 \vec{b})^{2}=\vec{\alpha}^{2}+4 \vec{b}^{2}=5|\vec{\alpha}|^{2}
 $$
@@ -239,6 +240,7 @@ $\vec{\gamma} \cdot \vec{\delta}=|\vec{\gamma}| \cdot|\vec{\delta}| \cdot cos(\v
 $\vec{\gamma} \cdot \vec{\delta}=(\vec{\alpha}+\vec{b}) \cdot(\vec{\alpha}-\vec{b})=\vec{\alpha}^{2}-\vec{b}^{2}=|\vec{\alpha}|^{2}-|\vec{b}|^{2}=3-1=2$
 
 $|\vec{\gamma}|^{2}=(\vec{\alpha}+\vec{b})^{2}=\vec{\alpha}^{2}+\vec{b}^{2}+2 \vec{\alpha} \cdot \vec{b}=(\sqrt{3})^{2}+1+2 \cdot \sqrt{3} \cdot 1 \cdot cos(\pi / 6)$
+
 $$= 3+1+2 \cdot \sqrt{3} \cdot \frac{\sqrt{3}}{2}=7 \Rightarrow|\vec{\gamma}|=7$$
 
 $|\vec{\delta}|^{2}=(\vec{\alpha}-\vec{b})^{2}=\vec{\alpha}^{2}+\vec{b}^{2}-2 \vec{\alpha} \cdot \vec{b}=(\sqrt{3})^{2}+1-2 \cdot \sqrt{3} \cdot 1 \cdot cos(\pi / 6)$
@@ -246,6 +248,7 @@ $|\vec{\delta}|^{2}=(\vec{\alpha}-\vec{b})^{2}=\vec{\alpha}^{2}+\vec{b}^{2}-2 \v
 $$= 3+1-2 \cdot \sqrt{3} \cdot \frac{\sqrt{3}}{2}=1 \Rightarrow|\vec{\delta}|=1$$
 
 Επομένως
+
 $$
 \vec{\gamma} \cdot \vec{\delta}=\sqrt{7} \cdot 1 \cdot cos(\vec{\gamma} \; \hat{,} \; \vec{\delta}) \Leftrightarrow
 $$
@@ -268,6 +271,7 @@ $$
 
 
 **Λύση**
+
 $$
 \begin{aligned}
 & \vec{a}=\vec{v}_{1}+\vec{v}_{2} \\
@@ -278,7 +282,8 @@ $$
 \end{aligned}
 $$
 
-Επομένως $\vec{v}_{1}=(1, 2)$ \\
+Επομένως $\vec{v}_{1}=(1, 2)$
+
 και $\vec{v}_{2}=\vec{\alpha}-\vec{v}_{1}=(3-1, 1-2)=(2,-1)$
 
 
@@ -317,8 +322,11 @@ $$
 $$
 
 Επομένως
+
 $$\vec{\delta}=\left(-\frac{8}{\sqrt{80}},-\frac{4}{\sqrt{80}}, 0\right)$$
+
 ή
+
 $$\vec{\delta}=\left(\frac{8}{\sqrt{80}}, \frac{4}{\sqrt{80}}, 0\right) $$
 
 ---
