@@ -1,347 +1,333 @@
-### [επιστροφή στα περιεχόμενα](./README.md)
+<script type="text/javascript" charset="utf-8" 
+src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML,
+https://vincenttam.github.io/javascripts/MathJaxLocal.js"></script>
 
+# Κεφάλαιο 4 - Ολοκληρώματα
 
-# Ανάλυση Δεδομένων με το Pandas
+[επιστροφή στα περιεχόμενα](./README.md)
 
-Η βιβλιοθήκη [Pandas](https://pandas.pydata.org) παρέχει συναρτήσεις για την εύκολη ανάγνωση δεδομένων από αρχεία (π.χ. excel, csv) και τον χειρισμό αυτών.
 
-Μια σύνοψη των δυνατοτήτων του Pandas μπορεί να βρέθει στον παρακάτω σύνδεσμο:
-https://pandas.pydata.org/Pandas_Cheat_Sheet.pdf 
 
+## Άσκηση 4.1
 
-# Δημιουργία Dataframe
-```python
-# Φόρτωση της βιβλιοθήκης Pandas
-import pandas as pd
 
-# Εισαγωγή δεδομένων σε λίστα
-data = {'Όνομα': ['Μανώλης', 'Κώστας', 'Ελένη', 'Δήμητρα'], 
-        'Ηλικία': [20, 21, 19, 22], 
-        'BMI': [24, 28, 25, 22]}  
-  
-# Create DataFrame  
-df = pd.DataFrame(data)  
+**Περιγραφή**
 
-df
-```
+Από τις αρχικές συναρτήσεις (παράγουσες) της $f(x)=x^{1/3}$ να προσδιοριστεί εκείνη της οποίας η γραφική παράσταση
+περνά από το σημείο (1,2).
 
+**Λύση**
 
+$$
+\begin{aligned}
+& f(x)=x^{1 / 3} \\
+& \left.\begin{array}{c}
+F(x)=\frac{x^{4 / 3}}{\frac{4}{3}}+c=\frac{3}{4} x^{4 / 3}+c \\
+F(1)=2
+\end{array}\right\} \Rightarrow \frac{3}{4} 1^{4 / 3}+c=2 \Rightarrow c=\frac{5}{4} \\
+& F(x)=\frac{3}{4} x^{4 / 3}+\frac{5}{4} \\
+&
+\end{aligned}
+$$
 
-# Διάβασμα δεδομένων από αρχείο excel ή csv
+---
 
-Για την εύκολη επεξεργασία των δεδομένων ενός πίνακα του excel ή ενός αρχείου csv, μπορείτε να δημιουργήσετε με αυτά ένα dataframe με χρήση της κατάλληλης εντολής.
+## Άσκηση 4.2
 
-```python
-from google.colab import drive
-drive.mount('/content/drive')
-```
 
-```python
-# Φόρτωση κατάλληλων βιβλιοθηκών
-import pandas as pd
+**Περιγραφή**
 
-url="/content/drive/MyDrive/Colab Notebooks/2450_Efarmoges_Pliroforikis/data/pelatologio.xlsx"
+Να προσδιοριστεί η $f(x)$ για την οποία ισχύει $f''(x)=6x+2$, $f(1)=5$, $f(2)=7$.
 
-# Διάβασμα αρχείου excel σαν dataframe
-df = pd.read_excel(url)
+**Λύση**
 
-df.head()
-```
+$$f^{\prime}(x)=6 \frac{x^2}{2}+2 x+c_1=3 x^2+2 x+c_1 $$
 
-# Συναρτήσεις του Pandas
+$$f(x)=3 \frac{x^3}{3}+2 \frac{x^2}{2}+c_1 x+c_2=x^3+x^2+c_1 x+c_2 .$$
 
-**`head`**
+$$
+\left.\begin{array}{l}
+f(1)=5 \Rightarrow c_1+c_2=5-2 \Rightarrow c_1+c_2=3 \\
+f(2)=7 \cdot 2^3+2^2+2 c_1+c_2=7 \Rightarrow 2 c_1+c_2=-5
+\end{array}\right\} \Rightarrow \begin{aligned}
+& c_1=-8 \\
+& c_2=11
+\end{aligned}
+$$
 
-Η συνάρτηση `head()` στα Pandas μπορεί να χρησιμοποιηθεί για την εμφάνιση δείγματος δεδομένων που υπάρχουν στο DataFrame
 
-```python
-# Εμφάνιση δείγματος του dataframe
-df.head()
-```
+---
 
-```python
-# Εμφάνιση όλων των ονομάτων των παραμέτρων
-df.columns
-```
+## Άσκηση 4.3
 
-```python
-# Δημιουργία λίστας με της επικεφαλίδες κάθε στήλης
-epikefalides = df.columns.values.tolist()
-print(epikefalides)
-```
 
-```python
-# Εμφάνιση των τιμών μιας στήλης
-df["BMI"]
-```
+**Περιγραφή**
 
-```python
-# Εμφάνιση της τιμής μιας στήλης σε μια συγκεκριμένη γραμμή
-df["BMI"][2]
-```
+Να υπολογιστούν τα ολοκληρώματα 
 
-```python
-# Προσθήκη στήλης
-df["Height_cm"] = df["Height"]*100.0
+$$ \alpha) \; \int \frac{3 x^2-2 x+5}{x} d x$$ 
 
-df
-```
+$$\beta) \; \int \frac{\sqrt{x}+1}{x} d x$$
 
-```python
-# Αριθμός εμφάνισεων των διαφορετικών τιμών μιας στήλης
-df["PhysicalActivityPerWeek"].value_counts()
-```
+**Λύση**
 
-```python
-# Βασική στατιστική ανάλυση ανά στήλη
-df.describe()
-```
 
-```python
-# Μέση τιμή για συγκεκριμένη στήλη (υποδηλώνεται από το  axis=0)
-mean_height = df["Height"].mean(axis=0)
-print(mean_height)
-```
+α)
 
-```python
-min_BMI = df["BMI"].min(axis=0)
-print(min_BMI)
-```
+$$ \int \frac{3 x^2-2 x+5}{x} d x=\int\left(3 x-2+5 \frac{1}{x}\right) d x=3 \frac{x^2}{2}-2 x+5 \ln |x|+c $$
 
-```python
-# Βαθμός συσχέτισης των στηλών ανα δυάδες
-df.corr()
-```
+β)
 
-```python
-# Ταξινόμηση ανα συγκεκριμένη στήλη
-df.sort_values(by="BMI")
-```
+$$ \int \frac{\sqrt{x}+1}{x} d x=\int\left(\frac{1}{\sqrt{x}}+\frac{1}{x}\right) d x=\frac{x^{1 / 2}}{\frac{1}{2}}+\ln x+c=2 \sqrt{x}+\ln |x|+c $$
 
-"""# 4.&nbsp;Εύρεση δεδομένων με κριτήρια (query)
 
 
+---
 
-"""
+## Άσκηση 4.4
 
-# Εύρεση του πελάτη με το επίθετο "Clark"
-df.query("LastName == 'Clark'")
 
-# Εύρεση του πελάτη με το επίθετο "Clark" και γένους αρσενικού
-df.query("LastName == 'Clark' and Gender =='Male'")
+**Περιγραφή**
 
-# Εύρεση πελατών με έτος γέννησης μεγαλύτερου του 2002
-df.query("YearOfBirth > 2002")
+Να προσδιοριστούν οι τιμές του $b$ ώστε να ισχύει 
 
-# Εύρεση πελατών με έτος γέννησης μεγαλύτερου του 2002 με δυσανεξία στη λακτόζη
-df.query("YearOfBirth > 2002 and LactoseIntorelant == True")
+$$\int_b^{2 b}-2 x d x=-48$$
 
-# Askisi
-df1 = df.query("YearOfBirth < 1995 and Height > 1.80 and PhysicalActivityPerWeek == 1 and LactoseIntorelant == True")
-df1
+**Λύση**
 
-df1.describe()
+$$
+\begin{aligned}
+& \int_b^{2 b}-2 x d x=-48 \Rightarrow \\
+& -2 \int_b^{2 b} x d x=-48 \Rightarrow\\
+& -2\left[\frac{x^2}{2}\right]_b^{2 b}=-48 \Rightarrow \\
+& -4 b^2+b^2=-48 \\
+& \Rightarrow b^2=16 \Rightarrow \\
+& b= \pm 4
+\end{aligned}
+$$
 
-"""# 5.&nbsp;Γραφικές παραστάσεις με το Pandas
 
-Το pandas παρέχει ευκολία όχι μόνο στην γραφική απεικόνιση των δεδομένων ενός dataframe αλλά και στην γραφική απεικόνιση ποικίλων αναλύσεων των δεδομένων αυτών
+---
 
-## Scatter (x-y) plot
+## Άσκηση 4.5
 
-Με χρήση της εντολής `plot.scatter()` μπορούμε να απεικονίσουμε σε διάγραμμα x-y όποιες από τις 2 στήλες του dataframe θέλουμε.
-"""
 
-df.corr()
+**Περιγραφή**
 
-df.plot.scatter("BMI", "Height")
+Να υπολογιστεί το ολοκλήρωμα 
 
-# Το ίδιο γράφημα μπορεί να δημιουργήθεί και με την βιβλιοθήκη matplotlib
-import matplotlib.pyplot as plt
-plt.scatter(df["Weight"], df["Height"])
-plt.show()
+$$\int_{-1}^0 x(x-2)(x+2) d x$$
 
-"""### Άσκηση
-Δημιουργήστε σε ένα κελί το x-y διάγραμμα των στηλών Weight και ΒΜΙ
+**Λύση**
 
-## Ιστογράμματα (histograms)
-Για να υπολογίσουμε την κατανομή των δεδομένων μια στήλης μπορούμε να χρησιμοποιήσουμε την εντολή `hist()`.
-"""
+$$
+\begin{aligned}
+& \int_{-1}^0 x(x-2)(x+2) d x=\int_{-1}^0 x\left(x^2-4\right) d x=\int_{-1}^0\left(x^3-4 x\right) d x= \\
+& =\left[\frac{x^4}{4}\right]_{-1}^0-4\left[\frac{x^2}{2}\right]_{-1}^0=-\frac{(-1)^4}{4}-4\left(-\frac{(-1)^2}{2}\right)=-\frac{1}{4}+2=\frac{7}{4}
+\end{aligned}
+$$
 
-df.hist("Weight", bins=5)
 
-"""#### Άσκηση
-Δημιουργήστε ένα ιστόγραμμα για την στήλη Height και με αριθμό bins 10.
+---
 
-## Boxplots (Θηκόγραμμα)
+## Άσκηση 4.6
 
-Τα [boxplots](https://en.wikipedia.org/wiki/Box_plot#/media/File:Boxplot_vs_PDF.svg) είναι ένας βολικός τρόπος γραφικής απεικόνισης πέντε αριθμητικών δεδομένων μιας σειράς παρατηρήσεων: της μικρότερης
-παρατήρησης του πρώτου τεταρτημόριου (Q1), της διαμέσου (δ) του τρίτου τεταρτημόριου (Q3), και της μεγαλύτερης παρατήρησης.
 
-Με το Pandas μπορούμε δημιουργήσουμε για οποιαδήποτε στήλη θέλουμε με την εντόλη `boxplot()`.
-"""
+**Περιγραφή**
 
-df.boxplot(column=["BMI", "Weight"])
+Να υπολογιστεί το ολοκλήρωμα 
 
-"""### Άσκηση
-Δημιουργήστε ένα boxplot για την παράμετρο του υψους σε εκατοστά (Height_cm)
-"""
+$$\int_{-1}^2(|x|+2|x-1|) d x$$
 
-df.boxplot(column=["Height_cm"])
+**Λύση**
 
-"""## Scatter Matrix plots
+$$
+\begin{aligned}
+& \int_{-1}^2(|x|+2|x-1|) d x= \\
+= & \int_{-1}^0(|x|+2|x-1|) d x+\int_0^1(|x|+2|x-1|) d x+\int_1^2(|x|+2|x-1|) d x= \\
+= & \int_{-1}^0(-x-2(x-1)) d x+\int_0^1(x-2(x-1)) d x+\int_1^2(x+2(x-1)) d x= \\
+= & \int_{-1}^0(-3 x+2) d x+\int_0^1(-x+2) d x+\int_1^2(3 x-2) d x= \\
+= & -3\left[\frac{x^2}{2}\right]_{-1}^0+2[x]_{-1}^0-\left[\frac{x^2}{2}\right]_0^1+2[x]_0^1+3\left[\frac{x^2}{2}\right]_1^2-2[x]_1^2= \\
+= & -\frac{3}{2}(0-1)+2(0+1)-\frac{1}{2}(1-0)+2(1-0)+\frac{3}{2}(4-1)-2(2-1)= \\
+= & \frac{3}{2}+2-\frac{1}{2}+2+\frac{9}{2}-2=\frac{11}{2}+2=\frac{15}{2}
+\end{aligned}
+$$
 
-Η συγκεκριμένη κατηγορία γραφημάτων βοηθά να έχουμε μια συνολική εικόνα για το dataframe σχετικά με την κατανομή των δεδομένων αλλά και μια γραφική απεικόνιση της συσχέτισης τους ανά δυάδες.
 
-Στο pandas δημιουργούνται με την εντολή `plotting.scatter_matrix()`
-"""
+---
 
-# Αφαίρεση των στηλών από το dataframe που δεν είναι integer ή real
-df = df.drop(columns=["FirstName", "LastName", "Gender", 'LactoseIntorelant', 'Diabetic'])
-df
+## Άσκηση 4.7
 
-# Δημιουργία του γραφήματος
-pd.plotting.scatter_matrix(df)
 
-# Αύξηση του μεγέθους της εικόνας
-pd.plotting.scatter_matrix(df, figsize=(15,15))
+**Περιγραφή**
 
-"""# 6.&nbsp;Δημιουργία Reports
+Να υπολογιστεί το ολοκλήρωμα 
 
-Με χρήση της κατάλληλης βιβλιοθήκης είναι εφικτό να δημιουργηθεί με αυτοματοποιημένο τρόπο ένα report με την συνολική ανάλυση των δεδομένων ενός dataframe.
-"""
+$$\int_1^e x \ln x d x$$
 
-#εγκατασταση βιβλιοθήκης
-!pip install sweetviz
+**Λύση**
 
-# importing sweetviz
-import sweetviz as sv
+$$
+\begin{aligned}
+& \int_1^e x \ln x d x= \\
+& =\int_1^e \frac{1}{2}\left(x^2\right)' \ln x d x= \\
+& =\frac{1}{2}\left[x^2 \ln x\right]_1^e-\frac{1}{2} \int_1^e x^2(\ln x)' d x= \\
+& =\frac{1}{2}\left[e^2 \ln e-1 \ln 1\right]-\frac{1}{2} \int_1^e x^2 \frac{1}{x} d x= \\
+& =\frac{1}{2} e^2-\frac{1}{2} \int_1^e x d x= \\
+& =\frac{1}{2} e^2-\frac{1}{2}\left[\frac{x^2}{2}\right]_1^e= \\
+& =\frac{e^2}{2}-\frac{1}{2}\left(\frac{e^2-1}{2}\right)= \\
+& =\frac{1}{4}\left(e^2+1\right)
+\end{aligned}
+$$
 
-#analyzing the dataset
-my_report = sv.analyze(df)
 
-#display the report
-my_report.show_notebook()
+---
 
-#analyzing the dataset against a target variable
-my_report = sv.analyze(df, target_feat="Weight")
+## Άσκηση 4.8
 
-#display the report
-my_report.show_notebook()
 
-"""# 7.&nbsp; Διαβάσμα δεδομένων από σελίδες της Wikipedia
+**Περιγραφή**
 
-Η βιβλιοθήκη Pandas έχει την δυνατότητα να διαβάζει δεδομένα κατευθείαν από πίνακες που υπάρχουν σε σελίδες της Wikipedia και άλλες ιστοσελίδες.
+Να υπολογιστεί το ολοκλήρωμα 
 
-Η εντολή που πρέπει να χρησιμοποιηθεί είναι η `pd.read_html(url)`
+$$\int_1^e x^2 \ln x d x$$
 
-Για παράδειγμα, έστω ότι θέλουμε να επεξεργαστούμε τα στοιχεία του πίνακα που βρίσκονται στον παρακάτω σύνδεσμο: 
+**Λύση**
 
-https://en.wikipedia.org/wiki/List_of_sovereign_states_by_body_mass_index
+$$
+\begin{aligned}
+& \int_1^e x^2 \ln x d x= \\
+& =\int_1^e\left(\frac{x^3}{3}\right)' \ln x d x =\\
+& =\left[\frac{x^3}{3} \ln x\right]_1^e-\int_1^e \frac{x^3}{3}(\ln x)' d x= \\
+& = \frac{e^3}{3} \ln e-\frac{1}{3} \ln 1-\int_1^e \frac{x^3}{3} \frac{1}{x} d x=\\
+& =\frac{1}{3} e^3-\frac{1}{3} \int_1^e x^2 d x= \\
+& =\frac{1}{3} e^3-\frac{1}{3}\left[\frac{x^3}{3}\right]_1^e=\\
+& =\frac{1}{3} e^3-\frac{1}{9} e^3+\frac{1}{9}=\\
+& =\frac{2 e^3+1}{9}
+\end{aligned}
+$$
 
+---
 
-Χρησιμοποιούμε τις παρακάτω εντόλες για να δημιουργήσουμε ένα dataframe από τα στοιχεία του πίνακα που εμπεριέχεται στην συγκεκριμένη ιστοσελίδα
+## Άσκηση 4.9
 
-Σημείωση: Είναι πιθανόν να δημιουργηθεί μια λίστα με τους διάφορους πίνακες που περιέχει η συγκεκριμένη ιστοσελίδα, οπότε θα χρειαστεί να επιλέξουμε την κατάλληλη.
 
+**Περιγραφή**
 
-"""
+Να υπολογιστεί το ολοκλήρωμα 
 
-import pandas as pd
-import numpy as np
+$$\int \frac{x}{1+x^2} d x$$
 
-# εδώ δηλώνετε την ιστοσελίδα που περιέχει των πίνακα με τα δεδομένα
-url = "https://en.wikipedia.org/wiki/List_of_sovereign_states_by_body_mass_index"
+**Λύση**
 
-# Διάβασμα των δεδομένων της ιστοσελίδας
-#tables = pd.read_html(url)
-tables = pd.read_html(url)
+$$
+\begin{aligned}
+& \int \frac{x}{1+x^2} d x=\frac{1}{2} \int \frac{\left(1+x^2\right)^{\prime}}{1+x^2} d x \\
+& \\
+& u(x)=1+x^2 \Rightarrow u'(x) dx=d u \Rightarrow\left(1+x^2\right)' dx=du \Rightarrow 2x dx=du\\
+& \\
+& \int \frac{x}{1+x^2} d x=\frac{1}{2} \int \frac{1}{u} d u=\frac{1}{2} \ln |u|+c=\frac{1}{2} \ln \left(1+x^2\right)+c
+\end{aligned}
+$$
 
-tables
+---
 
-# Αποθήκευση ως dataframe τα συγκεκριμένα στοιχεία της επιλογής σας.
-df_bmi = tables[0]
-df_bmi
+## Άσκηση 4.10
 
-# Ανάλυση των δεδομένων
-df_bmi.describe()
 
-# Για να μπορέσουμε να αναλύσουμε τα δεδομένα μας θα πρέπει να εξασφαλίσουμε ότι 
-# - υπάρχουν διαθέσιμα στοιχεία για όλες τις χώρες
-# - τα δεδομένα διαβάζονται με τον σωστό τύπο τους, π.χ. float και όχι string
+**Περιγραφή**
 
+Να υπολογιστεί το ολοκλήρωμα 
 
-# Για να κρατήσουμε μόνο τις γραμμές (χώρες) που υπάρχουν διαθέσιμα στοιχεία
-# εκτελούμε την παρακάτω εντολή
+$$ \int x e^{x^2+1} d x$$
 
-df_bmi = df_bmi[df_bmi['Both'] != '—']
-df_bmi
+**Λύση**
 
-df_bmi.dtypes
+$$
+\begin{aligned}
+& \int x e^{x^2+1} d x=\frac{1}{2} \int\left(x^2+1\right)' e^{x^2+1} d x \\
+& \\
+& x^2+1=u \Rightarrow\left(x^2+1\right)^{\prime} d x=d u \Rightarrow 2 x d x=d u \\
+& \\
+& \int  x e^{x^2+1} d x=\frac{1}{2} \int\left(x^2+1\right)^{\prime} e^{x^2+1} d x=\frac{1}{2} \int e^u d u=\frac{1}{2} e^u+c=\frac{1}{2} e^{x^2+1}+c
+\end{aligned}
+$$
 
-# Για κάθε μια από τις στήλες του BMI ορίζουμε ότι τα δεδομένα είναι τύπου "float"
-df_bmi['Both'] = df_bmi['Both'].astype(float)
-df_bmi['Male'] = df_bmi['Male'].astype(float)
-df_bmi['Female'] = df_bmi['Female'].astype(float)
+---
 
-df_bmi.dtypes
+## Άσκηση 4.11
 
-# επιτυχής ανάλυση των δεδομένων
-df_bmi.describe()
 
-"""## Άσκηση
+**Περιγραφή**
 
-Χρησιμοποιώντας τα στοιχεία του παραπάνω dataframe
+Να υπολογιστεί το ολοκλήρωμα 
 
+$$\int_0^1 x^2 e^{x^3+1} d x$$
 
-Υπολογίστε τα παρακάτω:
-* Τον παγκόσμιο μέσο όρο BMI των αντρών και των γυναικών
-* Τον αριθμό των χωρών που έχουν ΒΜΙ αντρών 25-30 (κατηγορία overweight)
-* Τον αριθμό των χωρών που έχουν BMI γυναικών κάτω από 18.5 (κατηγορία underweight)
+**Λύση**
 
-"""
+$$
+\begin{aligned}
+& \int_0^1 x^2  e^{x^3+1} d x=\frac{1}{3} \int_0^1\left(x^3+1\right)' e^{x^3+1} d x \\
+& x^3+1=u \rightarrow 3 x^2 d x=d u \\
+& x=0 \Rightarrow u=1 \\
+& x=1 \Rightarrow u=2 \\
+& \int_0^1 x^2 e^{x^3+1} d x=\frac{1}{3} \int_1^2 e^u d u=\frac{1}{3}\left[e^u\right]_1^2=\frac{1}{3}\left(e^2-e\right)
+\end{aligned}
+$$
 
-average_male = df_bmi["Male"].mean(axis=0)
-average_female = df_bmi["Female"].mean(axis=0)
-print("Το μέσο ΒΜΙ των ανδρών είναι", average_male)
-print("Το μέσο ΒΜΙ των γυναικών είναι", average_female)
+---
 
-df_over = df_bmi.query("Male > 25 and Male < 30")
-df_over.count()
+## Άσκηση 4.12
 
-df_under = df_bmi.query("Female < 18.5")
-df_under.count()
 
-"""# 8.&nbsp;Άσκηση
+**Περιγραφή**
 
-Χρησιμοποιήστε το αρχείο `nutrition.xlsx` που θα βρείτε στο eclass και υπολογίστε τα παρακάτω:
+Να υπολογιστεί το ολοκλήρωμα 
 
-1. Αν υπάρχουν ποτά που να περιέχουν περισσότερες από 100 θερμίδες 
-2. Αν υπάρχουν θαλασσινά που να περιέχουν πάνω από 20 γρ πρωτεινής
-3. ποιες δυο μεταβλητές έχουν την μεγαλύτερη συσχέτιση (θετική ή αρνητική) και δημιουργήστε το αντίστοιχο x-y διάγραμμά τους
-4. ποιες δυο μεταβλητές παρουσιάζουν την μικρότερη συσχέτιση και δημιουργήστε το αντίστοιχο x-y διάγραμμά τους
+$$\int_0^3 \sqrt{1+x} d x$$
 
-"""
+**Λύση**
 
-# Φόρτωση κατάλληλων βιβλιοθηκών
-import pandas as pd
+$$
+\begin{aligned}
+& \int_0^3 \sqrt{1+x} d x \\
+& u(x)=1+x \Rightarrow du=dx  \\
+& x=0 \Rightarrow u=1 \\
+& x=3 \Rightarrow u=4
+\end{aligned}
+$$
 
-url="/content/drive/MyDrive/Colab Notebooks/2450_Efarmoges_Pliroforikis/data/nutrition.xlsx"
+Συνεπώς
 
-# Διάβασμα αρχείου excel σαν dataframe
-df = pd.read_excel(url)
+$$
+\begin{aligned}
+& \int_0^3 \sqrt{1+x} d x=\int_1^4 \sqrt{u} d u= \\
+& = \left[\frac{u^{3 / 2}}{\frac{3}{2}}\right]_1^4= \left( \sqrt{4^3}- \sqrt{1^3} \right) =\\
+&=\frac{2}{3}(8-1)=\frac{14}{3}
+\end{aligned}
+$$
 
-df
+---
 
-df.query("Category == 'Drinks_Alcohol_Beverages' and Calories > 100")
+## Άσκηση 4.13
 
-df.query("Category == 'Fish_Seafood' and Protein > 20")
 
-df["Category"].value_counts()
+**Περιγραφή**
 
-df.corr()
+Να υπολογιστεί το ολοκλήρωμα $$\int_0^2 x \sqrt{4-x^2} d x$$
 
-df.plot.scatter("Fat", "Sat_Fat")
+**Λύση**
 
-df.plot.scatter("Fat", "Fiber")
+$$
+\begin{aligned}
+& \int_0^2 x \sqrt{4-x^2} d x=-\frac{1}{2} \int_0^2\left(4-x^2\right)' \sqrt{4-x^2} d x \\
+& u(x)=4-x^2 \Rightarrow d u=-2 x d x \\
+& u(0)=4-0^2=4 \\
+& u(2)=4-2^2=0
+\end{aligned}
+$$
 
-df["Category"].value_counts()
+Συνεπώς
+
+$$\int_0^2 x \sqrt{4-x^2} d x=-\frac{1}{2} \int_4^0 \sqrt{u} d u=\frac{1}{2} \int_0^4 \sqrt{u} d u=\frac{1}{2}\left[\frac{u^{3 / 2}}{\frac{3}{2}}\right]_0^4=\frac{1}{2} \frac{2}{3} \sqrt{4^3}=\frac{8}{3}$$
