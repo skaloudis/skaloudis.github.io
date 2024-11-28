@@ -282,23 +282,41 @@ b & \alpha
 \end{aligned}
 $$
 
-$A_{11}=(-1)^{2}\left|\begin{array}{ll}\alpha & b \\ 0 & \alpha\end{array}\right|=\alpha^{2}$
+$$
+A_{11}=(-1)^{2}\left|\begin{array}{ll}\alpha & b \\ 0 & \alpha\end{array}\right|=\alpha^{2}
+$$
 
-$A_{21}=(-1)^{3}\left|\begin{array}{ll}b & 0 \\ 0 & \alpha\end{array}\right|=-\alpha b$
+$$
+A_{21}=(-1)^{3}\left|\begin{array}{ll}b & 0 \\ 0 & \alpha\end{array}\right|=-\alpha b
+$$
 
-$A_{31}=(-1)^{4}\left|\begin{array}{ll}b & 0 \\ \alpha & b\end{array}\right|=b^{2}$
+$$
+A_{31}=(-1)^{4}\left|\begin{array}{ll}b & 0 \\ \alpha & b\end{array}\right|=b^{2}
+$$
 
-$A_{12}=(-1)^{3}\left|\begin{array}{ll}0 & b \\ b & \alpha\end{array}\right|=b^{2} $
+$$
+A_{12}=(-1)^{3}\left|\begin{array}{ll}0 & b \\ b & \alpha\end{array}\right|=b^{2}
+$$
 
-$A_{22}=(-1)^{4}\left|\begin{array}{ll}\alpha & 0 \\ b & \alpha\end{array}\right|=\alpha^{2} $
+$$
+A_{22}=(-1)^{4}\left|\begin{array}{ll}\alpha & 0 \\ b & \alpha\end{array}\right|=\alpha^{2}
+$$
 
-$A_{32}=(-1)^{5}\left|\begin{array}{ll}\alpha & 0 \\ 0 & b\end{array}\right|=-\alpha b$
+$$
+A_{32}=(-1)^{5}\left|\begin{array}{ll}\alpha & 0 \\ 0 & b\end{array}\right|=-\alpha b
+$$
 
-$A_{13}=(-1)^{4}\left|\begin{array}{ll}0 & \alpha \\ b & 0\end{array}\right|=-\alpha b $
+$$
+A_{13}=(-1)^{4}\left|\begin{array}{ll}0 & \alpha \\ b & 0\end{array}\right|=-\alpha b
+$$
 
-$A_{23}=(-1)^{5}\left|\begin{array}{ll}\alpha & b \\ b & 0\end{array}\right|=b^{2} $
+$$
+A_{23}=(-1)^{5}\left|\begin{array}{ll}\alpha & b \\ b & 0\end{array}\right|=b^{2}
+$$
 
-$A_{33}=(-1)^{6}\left|\begin{array}{ll}\alpha & b \\ 0 & \alpha\end{array}\right|=\alpha^{2}$
+$$
+A_{33}=(-1)^{6}\left|\begin{array}{ll}\alpha & b \\ 0 & \alpha\end{array}\right|=\alpha^{2}
+$$
 
 $$
 A^{-1}=\frac{1}{|A|} \alpha d j A=\left[\begin{array}{ccc}
@@ -421,93 +439,6 @@ $$
 
 **Περιγραφή**
 
-Να υπολογιστεί η εξίσωση
-
-$$
-\left[\begin{array}{ll}2 & 1 \\3 & 2\end{array}\right] X \left[\begin{array}{cc}-3 & 2 \\5 & -3\end{array}\right]=\left[\begin{array}{cc}-2 & 4 \\3 & -1\end{array}\right] 
-$$
-
-**Λύση**
-
-
-Οι πίνακες 
-
-$$
-\left[
-\begin{array}{cc}
-2 & 1 \\
-3 & 2
-\end{array}
-\right] \quad , \quad
-\left[
-\begin{array}{cc}
--3 & 2 \\
-5 & -3
-\end{array}
-\right]
-$$
-
-είναι αντιστρέψιμοι εφόσον
-
-$$
-\left|
-\begin{array}{cc}
-2 & 1 \\
-3 & 2
-\end{array}
-\right|=1
-\quad , \quad
-\left|
-\begin{array}{cc}
--3 & 2 \\
-5 & -3
-\end{array}
-\right|=-1
-$$
-
-και οι αντίστροφοί τους είναι αντίστοιχα:
-
-$$
-\frac{1}{1}
-\left[\begin{array}{cc}
-2 & -1 \\
--3 & 2
-\end{array}\right] 
-\quad , \quad
-\frac{1}{-1}\left[\begin{array}{ll}-3 & -2 \\-5 & -3\end{array}\right]\
-$$
-
-
-
-$$
-\left[\begin{array}{cc}2 & 1 \\3 & 2\end{array}\right] X \left[\begin{array}{cc}-3 & 2 \\5 & -3\end{array}\right]=\left[\begin{array}{cc}-2 & 4 \\3 & -1\end{array}\right] 
-$$
-
-$$
-\left[\begin{array}{ll}2 & 1 \\3 & 2\end{array}\right]^{-1} \left[\begin{array}{ll}2 & 1 \\3 & 2\end{array}\right]  X \left[\begin{array}{cc}-3 & 2 \\5 & -3\end{array}\right] \left[\begin{array}{cc}-3 & 2 \\5 & -3\end{array}\right]^{-1}=\left[\begin{array}{cc}2 & 1 \\3 & 2\end{array}\right]^{-1} \left[\begin{array}{cc}-2 & 4 \\3 & -1\end{array}\right] \left[\begin{array}{cc}-3 & 2 \\5 & -3\end{array}\right]^{-1}
-$$
-
-$$
-I \cdot X \cdot I=\frac{1}{1}\left[\begin{array}{cc}2 & -1 \\-3 & 2\end{array}\right] \cdot\left[\begin{array}{cc}-2 & 4 \\3 & -1\end{array}\right] \frac{1}{-1}\left[\begin{array}{cc}-3 & -2 \\-5 & -3\end{array}\right]=\left[\begin{array}{cc}2 & -1 \\-3 & 2\end{array}\right] \cdot\left[\begin{array}{cc}-2 & 4 \\3 & -1\end{array}\right]\left[\begin{array}{cc}3 & 2 \\5 & 3\end{array}\right]
-$$
-
-$$
-X=\left[\begin{array}{cc}-4-3 & 8+1 \\6+6 & -12-2\end{array}\right]\left[\begin{array}{cc}3 & 2 \\5 & 3\end{array}\right]=\left[\begin{array}{cc}-7 & 9 \\12 & -14\end{array}\right]\left[\begin{array}{cc}3 & 2 \\5 & 3\end{array}\right]
-$$
-
-$$
-X=\left[\begin{array}{cc}-21+45 & -14+27 \\36-70 & 24-42\end{array}\right]=\left[\begin{array}{cc}24 & 13 \\-34 & -18\end{array}\right]
-$$
-
-**end comment**
-
----
-
-## Άσκηση 8.6
-
-
-**Περιγραφή**
-
 Να λυθεί το σύστημα:
 
 $$
@@ -620,7 +551,7 @@ $$
 ---
 
 
-## Άσκηση 8.7
+## Άσκηση 8.6
 
 
 **Περιγραφή**
