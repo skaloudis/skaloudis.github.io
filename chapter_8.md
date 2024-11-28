@@ -8,29 +8,23 @@ https://vincenttam.github.io/javascripts/MathJaxLocal.js"></script>
 
 
 
-## Άσκηση 8.
+
+## Άσκηση 8.1
 
 **Περιγραφή**
 
-
-**Λύση**
-
-
-
----
-
-
-\subsection{Άσκηση}
-\textbf{Περιγραφή}\\
 Να λυθεί το παρακάτω γραμμικό σύστημα εξισώσεων:
+
+$$
 \begin{align*}
     2x + 3y - z &= -3 \\
     4x - y + 2z &= -2 \\
     x + 2y + 3z &= 2
 \end{align*}
+$$
 
+**Λύση**
 
-\textbf{Λύση}
 
 Το σύστημα μπορεί να αναπαρασταθεί με την μορφή πινάκων $AX = B$, όπου
 
@@ -136,18 +130,25 @@ z = \frac{|D_z|}{|D|} = \frac{-53}{-53}=1
 \]
 
 
-\newpage
-\subsection{Άσκηση}
-\textbf{Περιγραφή}\\
+---
+
+## Άσκηση 8.2
+
+**Περιγραφή**
+
 Να λυθεί το παρακάτω γραμμικό σύστημα εξισώσεων:
+
+$$
 \begin{align*}
     3x + y + 5z &= 0 \\
     x + 5y + z &= 10 \\
     3x + 2y + 4z &= 3
 \end{align*}
+$$
 
 
-\textbf{Λύση}
+**Λύση**
+
 
 Το σύστημα μπορεί να αναπαρασταθεί με την μορφή πινάκων $AX = B$, όπου
 
@@ -186,6 +187,7 @@ $$
 
 Υπολογίζουμε τις ορίζουσες:
 
+$$
 \[
 |D| = \begin{vmatrix}
     3 & 1 & 5 \\
@@ -194,11 +196,15 @@ $$
 \end{vmatrix}
 = 3(5 \cdot 4 - 2 \cdot 1) + 1(1 \cdot 4-3 \cdot 1) + 5(1 \cdot 2-3 \cdot 5)
 \]
+$$
 
+$$
 \[
 |D| = 3(20-2) - 1 \cdot 1 + 5 \cdot (-13) = 54 - 1 -65 = -12 
 \]
+$$
 
+$$
 \[
 |D_x| = \begin{vmatrix}
     0 & 1 & 5 \\
@@ -207,10 +213,14 @@ $$
 \end{vmatrix}
 = 0(20-2)-1(40-3)+5(20-15)
 \]
+$$
 
+$$
 \[
 |D_x| = 0 -37 + 25 = -12
 \]
+$$
+
 
 \[
 |D_y| = \begin{vmatrix}
@@ -252,16 +262,19 @@ y = \frac{|D_y|}{|D|} = \frac{-24}{12} = 2
 z = \frac{|D_z|}{|D|} = \frac{12}{-12} = -1
 \]
 
-\begin{comment}
-\subsection{Άσκηση}
-\textbf{Περιγραφή}\\
+
+## Άσκηση 8.3
+
+**Περιγραφή**
+
 Αν $\alpha^3 + \beta^3=1$ να βρεθεί ο αντίστροφος του πίνακα Α
 
 $$
 A=\left[\begin{array}{lll}\alpha & b & 0 \\ 0 & \alpha & b \\ b & 0 & \alpha\end{array}\right]
 $$
 
-\textbf{Λύση}
+**Λύση**
+
 
 $$
 \begin{aligned}
@@ -306,9 +319,12 @@ b^{2} & a^{2} & -\alpha b \\
 \end{array}\right]
 $$
 
-\newpage
-\subsection{Άσκηση}
-\textbf{Περιγραφή}\\
+---
+
+## Άσκηση 8.4
+
+**Περιγραφή**
+
 Να δείξετε ότι ο πίνακας Α είναι αντιστρέψιμος και να
 υπολογιστούν τα στοιχεία $\alpha_{14}$, $\alpha_{43}$ και $\alpha_{32}$ του πίνακα $A^{-1}$
 
@@ -316,7 +332,8 @@ $$
 A=\left[\begin{array}{cccc}4 & 2 & 0 & -2 \\ 2 & 3 & 1 & 3 \\ 3 & -3 & 0 & 4 \\ 5 & -4 & 1 & 0\end{array}\right]
 $$
 
-\textbf{Λύση}
+**Λύση**
+
 
 
 $$
@@ -376,6 +393,7 @@ $$
 5 & -4 & 1
 \end{array}\right|=
 $$
+
 $$
 =\frac{1}{214}
 \left|\begin{array}{ccc}
@@ -400,25 +418,33 @@ $$
 \end{subarray}
 }{=}
 $$
+
 $$
 =\frac{1}{214}\left|\begin{array}{ccc}0 & 0 & -2 \\11 & 1 & 4 \\5 & -4 & 0\end{array}\right|=\frac{1}{214}(-2)\left|\begin{array}{cc}11 & 1 \\5 & -4\end{array}\right|=\frac{49}{107}
 $$
 
 
 
-\newpage
-\subsection{Άσκηση}
+---
 
-\textbf{Περιγραφή}
+## Άσκηση 8.5
+
+
+**Περιγραφή**
+
 Να υπολογιστεί η εξίσωση
+
 $$
 \left[\begin{array}{ll}2 & 1 \\3 & 2\end{array}\right] X \left[\begin{array}{cc}-3 & 2 \\5 & -3\end{array}\right]=\left[\begin{array}{cc}-2 & 4 \\3 & -1\end{array}\right] 
 $$
 
-\textbf{Λύση}
+**Λύση**
+
 
 Οι πίνακες 
-$$\left[
+
+$$
+\left[
 \begin{array}{cc}
 2 & 1 \\
 3 & 2
@@ -429,7 +455,8 @@ $$\left[
 -3 & 2 \\
 5 & -3
 \end{array}
-\right]$$
+\right]
+$$
 
 είναι αντιστρέψιμοι εφόσον
 
@@ -450,6 +477,7 @@ $$
 $$
 
 και οι αντίστροφοί τους είναι αντίστοιχα:
+
 $$
 \frac{1}{1}
 \left[\begin{array}{cc}
@@ -465,6 +493,7 @@ $$
 $$
 \left[\begin{array}{cc}2 & 1 \\3 & 2\end{array}\right] X \left[\begin{array}{cc}-3 & 2 \\5 & -3\end{array}\right]=\left[\begin{array}{cc}-2 & 4 \\3 & -1\end{array}\right] 
 $$
+
 $$
 \left[\begin{array}{ll}2 & 1 \\3 & 2\end{array}\right]^{-1} \left[\begin{array}{ll}2 & 1 \\3 & 2\end{array}\right]  X \left[\begin{array}{cc}-3 & 2 \\5 & -3\end{array}\right] \left[\begin{array}{cc}-3 & 2 \\5 & -3\end{array}\right]^{-1}=\left[\begin{array}{cc}2 & 1 \\3 & 2\end{array}\right]^{-1} \left[\begin{array}{cc}-2 & 4 \\3 & -1\end{array}\right] \left[\begin{array}{cc}-3 & 2 \\5 & -3\end{array}\right]^{-1}
 $$
@@ -480,12 +509,16 @@ $$
 $$
 X=\left[\begin{array}{cc}-21+45 & -14+27 \\36-70 & 24-42\end{array}\right]=\left[\begin{array}{cc}24 & 13 \\-34 & -18\end{array}\right]
 $$
-\end{comment}
 
-\newpage
-\subsection{Άσκηση}
+**end comment**
 
-\textbf{Περιγραφή}
+---
+
+## Άσκηση 8.6
+
+
+**Περιγραφή**
+
 Να λυθεί το σύστημα:
 
 $$
@@ -497,7 +530,8 @@ x_{1}-2 x_{2}-x_{3}-2 x_{4}=0 \\
 \end{array}\right\}
 $$
 
-\textbf{Λύση}
+**Λύση**
+
 
 Ακολοθούμε τη μέθοδο του $Gauss$ και σχηματίζουμε τον επαυξημένο πίνακα του συστήματος και έχουμε:
 
@@ -594,11 +628,14 @@ $$
 Επομένως η λύση του συστήματος είναι (2,1,0,0)
 
 
-\newpage
+---
 
-\subsection{Άσκηση}
 
-\textbf{Περιγραφή}
+## Άσκηση 8.7
+
+
+**Περιγραφή**
+
 Να λυθεί το σύστημα:
 
 $$
@@ -610,7 +647,8 @@ $$
 \Rightarrow
 $$
 
-\textbf{Λύση}
+**Λύση**
+
 $$
 \Rightarrow
 \left|\begin{array}{ccc}
@@ -629,6 +667,7 @@ $$=
 \end{array}\right|
 \underset{\Gamma_{1}=\Gamma_{1}-\Gamma_{2}}{=}
 $$
+
 $$
 =\left|\begin{array}{ccc}
 0 & -1-\lambda & \lambda \\
@@ -636,12 +675,14 @@ $$
 0 & -3 & \lambda
 \end{array}\right|=
 $$
+
 $$
 =(-1)^{3}\left|\begin{array}{cc}
 -1-\lambda & \lambda \\
 -3 & \lambda
 \end{array}\right|=
 $$
+
 $$
 =-(-\lambda - \lambda^2 + 3 \lambda)=
 -(2\lambda -\lambda^2)=\lambda(\lambda-2)
@@ -649,9 +690,10 @@ $$
 
 Η ορίζουσα μηδενίζεται για $\lambda=0$ ή $\lambda=2$. Αν $\lambda \neq 0$ και $\lambda \neq 2$ τότε το σύστημα έχει μοναδική λύση τη μηδενική (0, 0, 0)
 
-\bigskip
+
 
 Αν λ=0 το σύστημα γίνεται:
+
 $$
 \left.
 \begin{array}{l}
@@ -666,11 +708,13 @@ x=-w/2\\
 -3 y=0
 \end{array}
 $$
+
 Επομένως το σύστημα έχει άπειρο πλήθος λύσεων
 της μορφής (-κ/2, 0, κ)
 
-\bigskip
+
 Αν λ=2 το σύστημα γίνεται:
+
 $$
 \begin{array}{l}
 4 x-y+3 w=0 \\
@@ -678,6 +722,7 @@ $$
 2 x-3 y+2 w=0
 \end{array}
 $$
+
 και σχηματίζουμε τον επαυξημένο πίνακα (ακολουθούμε τη μέθοδο $Gauss$)
 
 $$
