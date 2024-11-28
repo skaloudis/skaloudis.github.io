@@ -127,7 +127,9 @@ $\cos(\theta) = \frac{-8}{2\sqrt{2} \cdot 4} = - \frac{1}{\sqrt{2}} = - \frac{\s
 
 **Περιγραφή**
 
-Δίνονται τα σημεία Α(1,1), Β(1,-1), Γ(5,-2) και Δ(6,1). Να γραφεί το $\overrightarrow{\Gamma \Delta}$ ως γραμμικός συνδυασμός των $\overrightarrow{OA}$ και $\overrightarrow{OB}$ \\
+Δίνονται τα σημεία Α(1,1), Β(1,-1), Γ(5,-2) και Δ(6,1). 
+Να γραφεί το $\overrightarrow{\Gamma \Delta}$ ως γραμμικός συνδυασμός των 
+$\overrightarrow{OA}$ και $\overrightarrow{OB}$.
 
 **Λύση**
 
@@ -175,7 +177,8 @@ $$
 
 **Περιγραφή**
 
-Δίνονται τα σημεία Α(-2,-5) και Β(3,-4). Να βρείτε σημείο Γ του $x'x$ τέτοιο ώστε το τρίγωνο ΑΒΓ να είναι ισοσκελές με βάση την πλευρά ΑΒ.\\
+Δίνονται τα σημεία Α(-2,-5) και Β(3,-4). Να βρείτε σημείο Γ του $x'x$ 
+τέτοιο ώστε το τρίγωνο ΑΒΓ να είναι ισοσκελές με βάση την πλευρά ΑΒ.
 
 
 **Λύση**
@@ -200,13 +203,29 @@ $x=-0.4$
 
 **Περιγραφή**
 
-Αν τα διανύσματα $\overrightarrow{\alpha}$ και $\overrightarrow{\beta}$ είναι κάθετα μεταξύ τους και έχουν ίσα μέτρα, να αποδείξετε ότι και τα διανύσματα $\overrightarrow{\gamma}=2\overrightarrow{\alpha} + \overrightarrow{\beta}$ και $\overrightarrow{\delta}=\overrightarrow{\alpha} -2\overrightarrow{\beta}$ είναι κάθετα και έχουν ίσα μέτρα.\\
+Αν τα διανύσματα 
+$\overrightarrow{\alpha}$ 
+και 
+$\overrightarrow{\beta}$ 
+είναι κάθετα μεταξύ τους και έχουν ίσα μέτρα, να αποδείξετε ότι και τα διανύσματα 
+$\overrightarrow{\gamma}=2\overrightarrow{\alpha} + \overrightarrow{\beta}$ 
+και 
+$\overrightarrow{\delta}=\overrightarrow{\alpha} -2\overrightarrow{\beta}$ 
+είναι κάθετα και έχουν ίσα μέτρα.
 
 **Λύση**
 
 $$
-\lVert \vec{\alpha} \rVert = \lVert \vec{\beta} \rVert $ και $\vec{\alpha} \cdot \vec{b}=0
+\lVert \vec{\alpha} \rVert = \lVert \vec{\beta} \rVert 
+$$ 
+
+και 
+
 $$
+\vec{\alpha} \cdot \vec{b}=0
+$$
+
+Συνεπώς
 
 $$
 \vec{\gamma} \cdot \vec{\delta}=(2 \vec{\alpha}+\vec{b})(\vec{\alpha}-2 \vec{b})=2 \vec{\alpha}^{2}-4 \vec{\alpha} \cdot \vec{b}+\vec{\alpha} \cdot \vec{b}-2 \vec{b}^{2}=0
@@ -232,7 +251,9 @@ $$
 με $|\vec{\alpha}|=\sqrt{3}$,  $|\vec{\beta}|=1$ 
 και $(\vec{\alpha} \; \hat{,} \; \vec{\beta})=\pi/6$
 
-Να βρείτε τη γωνία των διανυσμάτων $\overrightarrow{\gamma}=\overrightarrow{\alpha} + \overrightarrow{\beta}$ και $\overrightarrow{\delta}=\overrightarrow{\alpha} -\overrightarrow{\beta}$
+Να βρείτε τη γωνία των διανυσμάτων 
+$\overrightarrow{\gamma}=\overrightarrow{\alpha} + \overrightarrow{\beta}$ 
+και $\overrightarrow{\delta}=\overrightarrow{\alpha} -\overrightarrow{\beta}$
 
 
 **Λύση**
@@ -269,7 +290,8 @@ $$
 
 **Περιγραφή**
 
-Να αναλύσετε το διάνυσμα $\vec{a} = (3,1)$ σε δύο συνιστώσες από τις οποίες η μία να είναι παράλληλη προς το $\vec{b}=(2,4)$ και η άλλη κάθετη στο $\vec{b}$. \\
+Να αναλύσετε το διάνυσμα $\vec{a} = (3,1)$ σε δύο συνιστώσες από τις οποίες 
+η μία να είναι παράλληλη προς το $\vec{b}=(2,4)$ και η άλλη κάθετη στο $\vec{b}$. 
 
 
 **Λύση**
@@ -288,7 +310,9 @@ $$
 
 και 
 
-$\vec{v}_{2}=\vec{\alpha}-\vec{v}_{1}=(3-1, 1-2)=(2,-1)$
+$$
+\vec{v}_{2} = \vec{\alpha} - \vec{v}_{1} = (3-1, 1-2) = (2,-1)
+$$
 
 
 
@@ -348,7 +372,7 @@ $\overrightarrow{A B}=\overrightarrow{O B}-\overrightarrow{O A}=(-1,2,-2)$
 
 $\overrightarrow{A \Gamma}=\overrightarrow{O \Gamma}-\overrightarrow{O A}=(0-2,0+1,5-3)=(-2,1,2)$
 
-$\overrightarrow{A B} \cdot \overrightarrow{A \Gamma}=\lvert \overrightarrow{A B} \rvert \cdot|\overrightarrow{A \Gamma}| \cdot cos(\overrightarrow{A B}, \overrightarrow{A \Gamma}) \Rightarrow$
+$\overrightarrow{A B} \cdot \overrightarrow{A \Gamma} = \lvert \overrightarrow{A B} \rvert \cdot \lvert \overrightarrow{A \Gamma} \rvert \cdot cos(\overrightarrow{A B}, \overrightarrow{A \Gamma}) \Rightarrow$
 
 $cos \hat{A}=\frac{(-2) \cdot(-1)+2 \cdot 1+(-2) \cdot 2}{\sqrt{(-1)^{2}+2^{2}+(-2)^{2}} \cdot \sqrt{(-2)^{2}+1^{2}+2^{2}}}=\frac{2+2-4}{\sqrt{9} \sqrt{3}}=0 \Rightarrow \hat{A}=90^{\circ}$
 
