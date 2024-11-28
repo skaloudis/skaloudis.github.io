@@ -22,9 +22,9 @@ https://vincenttam.github.io/javascripts/MathJaxLocal.js"></script>
 
 **Λύση**
 
-1. $|\vec{\alpha}| = \sqrt{x^2 + y^2} = \sqrt{3^2 + 4^2} = \sqrt{9 + 16} = \sqrt{25} = 5$
+1. $\lvert\vec{\alpha}\rvert = \sqrt{x^2 + y^2} = \sqrt{3^2 + 4^2} = \sqrt{9 + 16} = \sqrt{25} = 5$
 
-1. $|\vec{\beta}| =  \sqrt{x^2 + y^2} = \sqrt{(-2)^2 + 7^2} = \sqrt{4 + 49} = \sqrt{53}$
+1. $$|\vec{\beta}| =  \sqrt{x^2 + y^2} = \sqrt{(-2)^2 + 7^2} = \sqrt{4 + 49} = \sqrt{53}$$
 
 1. $|\vec{\gamma}| = \sqrt{x^2 + y^2} = \sqrt{0^2 + (-1)^2} = 1$
 
