@@ -24,9 +24,9 @@ https://vincenttam.github.io/javascripts/MathJaxLocal.js"></script>
 
 1. $\lvert\vec{\alpha}\rvert = \sqrt{x^2 + y^2} = \sqrt{3^2 + 4^2} = \sqrt{9 + 16} = \sqrt{25} = 5$
 
-1. $$|\vec{\beta}| =  \sqrt{x^2 + y^2} = \sqrt{(-2)^2 + 7^2} = \sqrt{4 + 49} = \sqrt{53}$$
+1. $\lvert\vec{\beta}\rvert =  \sqrt{x^2 + y^2} = \sqrt{(-2)^2 + 7^2} = \sqrt{4 + 49} = \sqrt{53}$
 
-1. $|\vec{\gamma}| = \sqrt{x^2 + y^2} = \sqrt{0^2 + (-1)^2} = 1$
+1. $\lvert\vec{\gamma}\rvert = \sqrt{x^2 + y^2} = \sqrt{0^2 + (-1)^2} = 1$
 
 
 ---
@@ -45,11 +45,11 @@ https://vincenttam.github.io/javascripts/MathJaxLocal.js"></script>
 
 **Λύση**
 
-1. $|\vec{\alpha}| = \sqrt{x^2 + y^2 + z^2} = \sqrt{1^2 + (-2)^2 + 3^3} = \sqrt{1 + 4 + 9} = \sqrt{14}$
+1. $\lvert\vec{\alpha}\rvert = \sqrt{x^2 + y^2 + z^2} = \sqrt{1^2 + (-2)^2 + 3^3} = \sqrt{1 + 4 + 9} = \sqrt{14}$
 
-1. $|\vec{\beta}| =  \sqrt{x^2 + y^2 + z^2} = \sqrt{(-3)^2 + 0^2 + 4^2} = \sqrt{9 + 16} = \sqrt{25} = 5$
+1. $\lvert\vec{\beta}\rvert =  \sqrt{x^2 + y^2 + z^2} = \sqrt{(-3)^2 + 0^2 + 4^2} = \sqrt{9 + 16} = \sqrt{25} = 5$
 
-1. $|\vec{\gamma}| = \sqrt{x^2 + y^2 + z^2} = \sqrt{2^2 + 2^2 + (-2)^2} = \sqrt{12}$
+1. $\lvert\vec{\gamma}\rvert = \sqrt{x^2 + y^2 + z^2} = \sqrt{2^2 + 2^2 + (-2)^2} = \sqrt{12}$
 
 
 ---
@@ -161,7 +161,9 @@ $$
 \Leftrightarrow 
 \begin{aligned}&\lambda=2 \\&\mu=-1\end{aligned} 
 $$
+
 Άρα
+
 $$
 \overrightarrow{\Gamma D}=2 \cdot \overrightarrow{O A}-\overrightarrow{O B}
 $$
@@ -180,24 +182,17 @@ $$
 
 Συντεταγμένες $\Gamma(x, 0)$
 
-$$
-\Gamma A=\Gamma B \Leftrightarrow
-$$
-$$
-\sqrt{(-2-x)^{2}+(-5)^{2}}=\sqrt{(3-x)^{2}+(-4)^{2}} \Leftrightarrow
-$$
-$$
-\sqrt{4+x^{2}+4 x+25}=\sqrt{9+x^{2}-6 x+16} \Leftrightarrow
-$$
-$$
-x^{2}+4 x+29=x^{2}-6 x+25 \Leftrightarrow 
-$$
-$$
-10 x=-4 \Leftrightarrow 
-$$
-$$
-x=-0.4
-$$
+$\Gamma A=\Gamma B \Leftrightarrow$
+
+$\sqrt{(-2-x)^{2}+(-5)^{2}}=\sqrt{(3-x)^{2}+(-4)^{2}} \Leftrightarrow$
+
+$\sqrt{4+x^{2}+4 x+25}=\sqrt{9+x^{2}-6 x+16} \Leftrightarrow$
+
+$x^{2}+4 x+29=x^{2}-6 x+25 \Leftrightarrow$
+
+$10 x=-4 \Leftrightarrow$
+
+$x=-0.4$
 
 ---
 
