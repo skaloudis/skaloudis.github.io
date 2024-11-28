@@ -367,3 +367,5 @@ $$
 \frac{4 \sigma \upsilon \nu (4 \cdot 0)} {7-4 \cdot 0}=
 \frac{4}{7}
 $$
+
+[επιστροφή στα περιεχόμενα](./README.md)
