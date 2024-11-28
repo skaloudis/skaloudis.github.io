@@ -100,8 +100,8 @@ $$
 & \int_b^{2 b}-2 x d x=-48 \Rightarrow \\
 & -2 \int_b^{2 b} x d x=-48 \Rightarrow\\
 & -2\left[\frac{x^2}{2}\right]_b^{2 b}=-48 \Rightarrow \\
-& -4 b^2+b^2=-48 \\
-& \Rightarrow b^2=16 \Rightarrow \\
+& -4 b^2+b^2=-48 \Rightarrow\\
+& b^2=16 \Rightarrow \\
 & b= \pm 4
 \end{aligned}
 $$
@@ -149,7 +149,9 @@ $$
 = & \int_{-1}^0(-3 x+2) d x+\int_0^1(-x+2) d x+\int_1^2(3 x-2) d x= \\
 = & -3\left[\frac{x^2}{2}\right]_{-1}^0+2[x]_{-1}^0-\left[\frac{x^2}{2}\right]_0^1+2[x]_0^1+3\left[\frac{x^2}{2}\right]_1^2-2[x]_1^2= \\
 = & -\frac{3}{2}(0-1)+2(0+1)-\frac{1}{2}(1-0)+2(1-0)+\frac{3}{2}(4-1)-2(2-1)= \\
-= & \frac{3}{2}+2-\frac{1}{2}+2+\frac{9}{2}-2=\frac{11}{2}+2=\frac{15}{2}
+= & \frac{3}{2}+2-\frac{1}{2}+2+\frac{9}{2}-2= \\
+= \frac{11}{2}+2= \\
+= \frac{15}{2}
 \end{aligned}
 $$
 
