@@ -204,7 +204,9 @@ $x=-0.4$
 
 **Λύση**
 
-$|\vec{\alpha}|=|\vec{b}|$ και $\vec{\alpha} \cdot \vec{b}=0$
+$$
+\lVert \vec{\alpha} \rVert = \lVert \vec{\beta} \rVert $ και $\vec{\alpha} \cdot \vec{b}=0
+$$
 
 $$
 \vec{\gamma} \cdot \vec{\delta}=(2 \vec{\alpha}+\vec{b})(\vec{\alpha}-2 \vec{b})=2 \vec{\alpha}^{2}-4 \vec{\alpha} \cdot \vec{b}+\vec{\alpha} \cdot \vec{b}-2 \vec{b}^{2}=0
@@ -235,15 +237,15 @@ $$
 
 **Λύση**
 
-$\vec{\gamma} \cdot \vec{\delta}=|\vec{\gamma}| \cdot|\vec{\delta}| \cdot cos(\vec{\gamma} \; \hat{,} \; \vec{\delta})$
+$$\vec{\gamma} \cdot \vec{\delta}=|\vec{\gamma}| \cdot|\vec{\delta}| \cdot cos(\vec{\gamma} \; \hat{,} \; \vec{\delta})$$
 
-$\vec{\gamma} \cdot \vec{\delta}=(\vec{\alpha}+\vec{b}) \cdot(\vec{\alpha}-\vec{b})=\vec{\alpha}^{2}-\vec{b}^{2}=|\vec{\alpha}|^{2}-|\vec{b}|^{2}=3-1=2$
+$$\vec{\gamma} \cdot \vec{\delta}=(\vec{\alpha}+\vec{b}) \cdot(\vec{\alpha}-\vec{b})=\vec{\alpha}^{2}-\vec{b}^{2}=|\vec{\alpha}|^{2}-|\vec{b}|^{2}=3-1=2$$
 
-$|\vec{\gamma}|^{2}=(\vec{\alpha}+\vec{b})^{2}=\vec{\alpha}^{2}+\vec{b}^{2}+2 \vec{\alpha} \cdot \vec{b}=(\sqrt{3})^{2}+1+2 \cdot \sqrt{3} \cdot 1 \cdot cos(\pi / 6)$
+$$|\vec{\gamma}|^{2}=(\vec{\alpha}+\vec{b})^{2}=\vec{\alpha}^{2}+\vec{b}^{2}+2 \vec{\alpha} \cdot \vec{b}=(\sqrt{3})^{2}+1+2 \cdot \sqrt{3} \cdot 1 \cdot cos(\pi / 6)$$
 
 $$= 3+1+2 \cdot \sqrt{3} \cdot \frac{\sqrt{3}}{2}=7 \Rightarrow|\vec{\gamma}|=7$$
 
-$|\vec{\delta}|^{2}=(\vec{\alpha}-\vec{b})^{2}=\vec{\alpha}^{2}+\vec{b}^{2}-2 \vec{\alpha} \cdot \vec{b}=(\sqrt{3})^{2}+1-2 \cdot \sqrt{3} \cdot 1 \cdot cos(\pi / 6)$
+$$|\vec{\delta}|^{2}=(\vec{\alpha}-\vec{b})^{2}=\vec{\alpha}^{2}+\vec{b}^{2}-2 \vec{\alpha} \cdot \vec{b}=(\sqrt{3})^{2}+1-2 \cdot \sqrt{3} \cdot 1 \cdot cos(\pi / 6)$$
 
 $$= 3+1-2 \cdot \sqrt{3} \cdot \frac{\sqrt{3}}{2}=1 \Rightarrow|\vec{\delta}|=1$$
 
@@ -284,7 +286,9 @@ $$
 
 Επομένως $\vec{v}_{1}=(1, 2)$
 
-και $\vec{v}_{2}=\vec{\alpha}-\vec{v}_{1}=(3-1, 1-2)=(2,-1)$
+και 
+
+$\vec{v}_{2}=\vec{\alpha}-\vec{v}_{1}=(3-1, 1-2)=(2,-1)$
 
 
 
@@ -344,7 +348,7 @@ $\overrightarrow{A B}=\overrightarrow{O B}-\overrightarrow{O A}=(-1,2,-2)$
 
 $\overrightarrow{A \Gamma}=\overrightarrow{O \Gamma}-\overrightarrow{O A}=(0-2,0+1,5-3)=(-2,1,2)$
 
-$\overrightarrow{A B} \cdot \overrightarrow{A \Gamma}=|\overrightarrow{A B}| \cdot|\overrightarrow{A \Gamma}| \cdot cos(\overrightarrow{A B}, \overrightarrow{A \Gamma}) \Rightarrow$
+$\overrightarrow{A B} \cdot \overrightarrow{A \Gamma}=\lvert \overrightarrow{A B} \rvert \cdot|\overrightarrow{A \Gamma}| \cdot cos(\overrightarrow{A B}, \overrightarrow{A \Gamma}) \Rightarrow$
 
 $cos \hat{A}=\frac{(-2) \cdot(-1)+2 \cdot 1+(-2) \cdot 2}{\sqrt{(-1)^{2}+2^{2}+(-2)^{2}} \cdot \sqrt{(-2)^{2}+1^{2}+2^{2}}}=\frac{2+2-4}{\sqrt{9} \sqrt{3}}=0 \Rightarrow \hat{A}=90^{\circ}$
 
