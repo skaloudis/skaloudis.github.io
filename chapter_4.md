@@ -333,3 +333,6 @@ $$
 Συνεπώς
 
 $$\int_0^2 x \sqrt{4-x^2} d x=-\frac{1}{2} \int_4^0 \sqrt{u} d u=\frac{1}{2} \int_0^4 \sqrt{u} d u=\frac{1}{2}\left[\frac{u^{3 / 2}}{\frac{3}{2}}\right]_0^4=\frac{1}{2} \frac{2}{3} \sqrt{4^3}=\frac{8}{3}$$
+
+
+[επιστροφή στα περιεχόμενα](./README.md)
