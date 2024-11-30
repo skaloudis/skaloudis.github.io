@@ -6,6 +6,7 @@ https://vincenttam.github.io/javascripts/MathJaxLocal.js"></script>
 
 [επιστροφή στα περιεχόμενα](./README.md)
 
+<div id='id-section-2-top'/>
 
 
 ## Άσκηση 2.1
@@ -37,28 +38,32 @@ $\Rightarrow \frac{2}{x_1-1} > \frac{2}{x_2-1}$
 
 $\Rightarrow f(x_1)>f(x_2) \rightarrow$ Γνησίως φθίνουσα
 
-<font size=2> <em> Επιστροφή στα [Περιεχόμενα](#id-section-toc) </em> </font>
-<hr size="20" color="blue">
+[Επιστροφή στην αρχή της σελίδας](#id-section-2-top)
 
-<div id='id-section-2-2'/>
+---
+
 
 ## Άσκηση 2.2
 
-**Περιγραφή** -
+**Περιγραφή**
 
-Αν $$f(x)=\frac{x^2 -2|x|}{2(x-2)} +2$$ να αποδειχθεί ότι $$\lim_{x\to2} f(x) = 3$$
+Αν 
+
+$$
+f(x)=\frac{x^2 -2|x|}{2(x-2)} +2$$ να αποδειχθεί ότι $$\lim_{x\to2} f(x) = 3
+$$
 
 **Λύση**
 
 Πεδίο ορισμού: $\mathbb{R}-\{2\}$
+
 $$x>0 \Rightarrow f(x)=\frac{x^2 -2|x|}{2(x-2)} + 2 = \frac{x^2 -2x}{2(x-2)} + 2 = \frac{x}{2} + 2$$
+
 $$x \in (0,2) \cup (2,+\infty)$$ 
+
 $$ \lim_{x\to2} f(x) = \lim_{x\to2} \left( \frac{x}{2} + 2 \right) = 3$$
 
-<font size=2> <em> Επιστροφή στα [Περιεχόμενα](#id-section-toc) </em> </font>
-<hr size="20" color="blue">
-
-<div id='id-section-2-3'/>
+---
 
 ## Άσκηση 2.3
 
@@ -78,10 +83,7 @@ $f(x)=\sqrt{1-x^2} + \sqrt{x^2-1}$
 
 $f(1)=f(-1)=0$ επομένως πεδίο τιμών $f(A)=0$
 
-<font size=2> <em> Επιστροφή στα [Περιεχόμενα](#id-section-toc) </em> </font>
-<hr size="20" color="blue">
-
-<div id='id-section-2-4'/>
+---
 
 ## Άσκηση 2.4
 
@@ -112,10 +114,7 @@ $\Leftrightarrow x=3$
 
 Επομένως το σύστημα έχει λύση $(3,f(3))$ ή $(3,2)$ 
 
-<font size=2> <em> Επιστροφή στα [Περιεχόμενα](#id-section-toc) </em> </font>
-<hr size="20" color="blue">
-
-<div id='id-section-2-5'/>
+---
 
 ## Άσκηση 2.5
 
@@ -132,10 +131,7 @@ $\Leftrightarrow x=3$
 
 Άρα $f(x)=g(x)$ στο $(-\infty,-2)\cup(-2,2)\cup(2,+\infty)$
 
-<font size=2> <em> Επιστροφή στα [Περιεχόμενα](#id-section-toc) </em> </font>
-<hr size="20" color="blue">
-
-<div id='id-section-2-6'/>
+---
 
 ## Άσκηση 2.6
 
@@ -161,10 +157,7 @@ $\Rightarrow x<0$ και $x\geq1$
 Άρα $f(x)=g(x)$ στο $[1,+\infty)$
 
 
-<font size=2> <em> Επιστροφή στα [Περιεχόμενα](#id-section-toc) </em> </font>
-<hr size="20" color="blue">
-
-<div id='id-section-2-7'/>
+---
 
 ## Άσκηση 2.7
 
@@ -189,10 +182,7 @@ $$(g \circ f)(x) = |x+5| =
 Άρα $(g \circ f)(4) = 4+5=9$
 
 
-<font size=2> <em> Επιστροφή στα [Περιεχόμενα](#id-section-toc) </em> </font>
-<hr size="20" color="blue">
-
-<div id='id-section-2-8'/>
+---
 
 ## Άσκηση 2.8
 
@@ -226,10 +216,7 @@ $\Rightarrow f(x_1)<f(x_2)$ </br>
 $\Rightarrow$ Γνησίως αύξουσα
 
 
-<font size=2> <em> Επιστροφή στα [Περιεχόμενα](#id-section-toc) </em> </font>
-<hr size="20" color="blue">
-
-<div id='id-section-2-9'/>
+---
 
 ## Άσκηση 2.9
 
@@ -249,5 +236,6 @@ $$f(x)=\left\{ \begin{aligned}
 * Για $x_1 < 0 < x_2 \Rightarrow x_1 < x_2^2 \Rightarrow f(x_1) < f(x_2) \rightarrow$ Γνησίως αύξουσα
 
 
-<font size=2> <em> Επιστροφή στα [Περιεχόμενα](#id-section-toc) </em> </font>
-<hr size="20" color="blue">
+---
+
+[Επιστροφή στην αρχική σελίδα](./README.md)
