@@ -2,10 +2,11 @@
 src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML,
 https://vincenttam.github.io/javascripts/MathJaxLocal.js"></script>
 
+<div id='id-section-1-top'/>
 
 # Κεφάλαιο 1 - Συναρτήσεις
 
-[Επιστροφή στην αρχική σελίδα](./README.md)
+[Αρχική](./README.md)
 
 ## Άσκηση 1.1
 
@@ -39,6 +40,9 @@ $\dfrac{2y}{1-y}=-2 \Rightarrow $
 $2y=-2+2y$ αδύνατο 
 
 Επομένως το σύνολο τιμών είναι $f(A)=(-\infty,1)\cup(1,+\infty)$
+
+
+[[Πάνω](#id-section-1-top), [Αρχική](./README.md)]
 
 ---
 
@@ -81,6 +85,9 @@ $\Rightarrow -7y^2+26y-15 \geq 0$
 $\Rightarrow \frac{5}{7} \leq y \leq 3$  
 $\Rightarrow f(A) = [ \dfrac{5}{7},3]$ περιλαμβάνει το $y=1$
 
+
+[[Πάνω](#id-section-1-top), [Αρχική](./README.md)]
+
 ---
 
 ## Άσκηση 1.3
@@ -100,6 +107,9 @@ $f(x)=\sqrt{1-x^2} + \sqrt{x^2-1}$
 Για την εύρεση του συνόλου τιμών αναζητούμε τις τιμές του $y$ για τις οποίες η $f(x)=y$ έχει λύση ως προς $x$ στο πεδίο ορισμού $Α$.
 
 $f(1)=f(-1)=0$ επομένως πεδίο τιμών $f(A)=0$
+
+
+[[Πάνω](#id-section-1-top), [Αρχική](./README.md)]
 
 ---
 
@@ -132,6 +142,9 @@ $\Leftrightarrow x=3$
 
 Επομένως το σύστημα έχει λύση $(3,f(3))$ ή $(3,2)$ 
 
+
+[[Πάνω](#id-section-1-top), [Αρχική](./README.md)]
+
 ---
 
 ## Άσκηση 1.5
@@ -148,6 +161,9 @@ $\Leftrightarrow x=3$
 * $g(x)=\dfrac{x-3}{x+2} \Rightarrow$ πεδίο ορισμού $(-\infty,-2)\cup(-2,+\infty)$
 
 Άρα $f(x)=g(x)$ στο $(-\infty,-2)\cup(-2,2)\cup(2,+\infty)$
+
+
+[[Πάνω](#id-section-1-top), [Αρχική](./README.md)]
 
 ---
 
@@ -173,6 +189,9 @@ $\Rightarrow x<0$ και $x\geq1$
 Συνεπώς το πεδίο ορισμού είναι το $(-\infty,0)\cap[1,+\infty)$
 
 Άρα $f(x)=g(x)$ στο $[1,+\infty)$
+
+
+[[Πάνω](#id-section-1-top), [Αρχική](./README.md)]
 
 ---
 
@@ -203,6 +222,9 @@ $$
 $$ 
 
 Άρα $(g \circ f)(4) = 4+5=9$
+
+
+[[Πάνω](#id-section-1-top), [Αρχική](./README.md)]
 
 ---
 
@@ -237,6 +259,9 @@ $\Rightarrow \dfrac{2}{x_1-1} < \dfrac{2}{x_2-1}$
 $\Rightarrow f(x_1)<f(x_2)$  
 $\Rightarrow$ Γνησίως αύξουσα
 
+
+[[Πάνω](#id-section-1-top), [Αρχική](./README.md)]
+
 ---
 
 ## Άσκηση 1.9
@@ -262,4 +287,7 @@ $$
 * Για $x_1 < 0 < x_2 \Rightarrow x_1 < x_2^2 \Rightarrow f(x_1) < f(x_2) \rightarrow$ Γνησίως αύξουσα
 
 
-[Επιστροφή στην αρχική σελίδα](./README.md)
+
+[[Πάνω](#id-section-1-top), [Αρχική](./README.md)]
+
+---

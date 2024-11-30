@@ -2,9 +2,11 @@
 src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML,
 https://vincenttam.github.io/javascripts/MathJaxLocal.js"></script>
 
+<div id='id-section-4-top'/>
+
 # Κεφάλαιο 4 - Ολοκληρώματα
 
-[επιστροφή στα περιεχόμενα](./README.md)
+[Αρχική](./README.md)
 
 
 

@@ -2,9 +2,11 @@
 src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML,
 https://vincenttam.github.io/javascripts/MathJaxLocal.js"></script>
 
+<div id='id-section-3-top'/>
+
 # Κεφάλαιο 3 - Παράγωγος Συνάρτησης
 
-[επιστροφή στα περιεχόμενα](./README.md)
+[Αρχική](./README.md)
 
 
 

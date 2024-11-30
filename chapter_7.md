@@ -2,9 +2,13 @@
 src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML,
 https://vincenttam.github.io/javascripts/MathJaxLocal.js"></script>
 
+
+<div id='id-section-7-top'/>
+
+
 # Κεφάλαιο 7 - Πίνακες - Ορίζουσες
 
-[επιστροφή στα περιεχόμενα](./README.md)
+[Αρχική](./README.md)
 
 
 
