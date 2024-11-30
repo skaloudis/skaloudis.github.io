@@ -61,7 +61,7 @@ $$
 
 **Λύση**
 
-Πεδίο ορισμού: $\mathbb{R}-\{2\}$
+Πεδίο ορισμού: $\mathbb{R}$ - {2}
 
 $$x>0 \Rightarrow f(x)=\frac{x^2 -2|x|}{2(x-2)} + 2 = \frac{x^2 -2x}{2(x-2)} + 2 = \frac{x}{2} + 2$$
 
@@ -83,7 +83,7 @@ $f(x)=\sqrt{1-x^2} + \sqrt{x^2-1}$
 * $1-x^2 \geq 0 \Rightarrow -1 \leq x \leq 1$
 * $x^2-1 \geq 0 \Rightarrow x \leq -1 \; \kappa a \iota \; x\geq 1$
 
-Συνεπώς πεδίο ορισμού $A=\{-1,1\}$
+Συνεπώς πεδίο ορισμού A={-1,1}
 
 Για την εύρεση του συνόλου τιμών αναζητούμε τις τιμές του $y$ για τις οποίες η $f(x)=y$ έχει λύση ως προς $x$ στο πεδίο ορισμού $Α$.
 
@@ -185,6 +185,7 @@ $$g(x) = |x| =
 & -x, \; x<0  \\
 & x, \; x \geq 0 \\
 \end{aligned} \right.$$ 
+
 Άρα το πεδίο ορισμού των $f(x), \; g(x)$ είναι το $\mathbb{R}$.
 
 $$(g \circ f)(x) = |x+5| = 
@@ -192,6 +193,7 @@ $$(g \circ f)(x) = |x+5| =
 & -x-5, \; x<0  \\
 & x+5, \; x \geq 0 \\
 \end{aligned} \right.$$ 
+
 Άρα $(g \circ f)(4) = 4+5=9$
 
 
@@ -208,24 +210,24 @@ $$(g \circ f)(x) = |x+5| =
 Πεδίο ορισμού $(-\infty,1)\cap(1,+\infty)$
 
 * Για $x_1, x_2 \in (-\infty,1)$ και $x_1 < x_2$ τότε 
-$x_1 -1 < x_2 -1$ </br>
-$\Rightarrow \dfrac{1}{x_1-1} > \dfrac{1}{x_2-1}$ </br>
-$\Rightarrow \dfrac{2}{x_1-1} > \dfrac{2}{x_2-1}$ </br>
-$\Rightarrow f(x_1)>f(x_2)$ </br>
+$x_1 -1 < x_2 -1$ 
+$\Rightarrow \dfrac{1}{x_1-1} > \dfrac{1}{x_2-1}$ 
+$\Rightarrow \dfrac{2}{x_1-1} > \dfrac{2}{x_2-1}$ 
+$\Rightarrow f(x_1)>f(x_2)$ 
 $\Rightarrow$ Γνησίως φθίνουσα
 
 * Για $x_1, x_2 \in (1,+\infty)$ και $x_1 < x_2$ τότε 
-$x_1 -1 < x_2 -1$ </br>
-$\Rightarrow \dfrac{1}{x_1-1} > \dfrac{1}{x_2-1}$ </br>
-$\Rightarrow \dfrac{2}{x_1-1} > \dfrac{2}{x_2-1}$ </br>
-$\Rightarrow f(x_1)>f(x_2)$ </br>
+$x_1 -1 < x_2 -1$ 
+$\Rightarrow \dfrac{1}{x_1-1} > \dfrac{1}{x_2-1}$ 
+$\Rightarrow \dfrac{2}{x_1-1} > \dfrac{2}{x_2-1}$ 
+$\Rightarrow f(x_1)>f(x_2)$ 
 $\Rightarrow$ Γνησίως φθίνουσα
 
-* Για $x_1 \in (-\infty,1)$ και $ x_2 \in (1,+\infty)$ τότε $x_1 < x_2$ </br>
-$\Rightarrow x_1 -1 < x_2 -1$ </br>
-$\Rightarrow \dfrac{1}{x_1-1} < \dfrac{1}{x_2-1}$ </br>
-$\Rightarrow \dfrac{2}{x_1-1} < \dfrac{2}{x_2-1}$ </br>
-$\Rightarrow f(x_1)<f(x_2)$ </br>
+* Για $x_1 \in (-\infty,1)$ και $ x_2 \in (1,+\infty)$ τότε $x_1 < x_2$ 
+$\Rightarrow x_1 -1 < x_2 -1$ 
+$\Rightarrow \dfrac{1}{x_1-1} < \dfrac{1}{x_2-1}$ 
+$\Rightarrow \dfrac{2}{x_1-1} < \dfrac{2}{x_2-1}$ 
+$\Rightarrow f(x_1)<f(x_2)$ 
 $\Rightarrow$ Γνησίως αύξουσα
 
 
