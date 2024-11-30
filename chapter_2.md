@@ -2,11 +2,12 @@
 src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML,
 https://vincenttam.github.io/javascripts/MathJaxLocal.js"></script>
 
+<div id='id-section-2-top'/>
+
 # Κεφάλαιο 2 - ΄Ορια Συναρτήσεων
 
 [επιστροφή στα περιεχόμενα](./README.md)
 
-<div id='id-section-2-top'/>
 
 
 ## Άσκηση 2.1
@@ -50,7 +51,12 @@ $\Rightarrow f(x_1)>f(x_2) \rightarrow$ Γνησίως φθίνουσα
 Αν 
 
 $$
-f(x)=\frac{x^2 -2|x|}{2(x-2)} +2$$ να αποδειχθεί ότι $$\lim_{x\to2} f(x) = 3
+f(x)=\frac{x^2 -2|x|}{2(x-2)} +2$$ 
+
+να αποδειχθεί ότι 
+
+$$
+\lim_{x\to2} f(x) = 3
 $$
 
 **Λύση**
