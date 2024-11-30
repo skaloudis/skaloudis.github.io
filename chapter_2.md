@@ -41,6 +41,9 @@ $\Rightarrow f(x_1)>f(x_2) \rightarrow$ Γνησίως φθίνουσα
 
 [[Πάνω](#id-section-2-top), [Αρχική](./README.md)]
 
+
+[[Πάνω](#id-section-2-top), [Αρχική](./README.md)]
+
 ---
 
 
@@ -69,6 +72,9 @@ $$x \in (0,2) \cup (2,+\infty)$$
 
 $$ \lim_{x\to2} f(x) = \lim_{x\to2} \left( \frac{x}{2} + 2 \right) = 3$$
 
+
+[[Πάνω](#id-section-2-top), [Αρχική](./README.md)]
+
 ---
 
 ## Άσκηση 2.3
@@ -88,6 +94,9 @@ $f(x)=\sqrt{1-x^2} + \sqrt{x^2-1}$
 Για την εύρεση του συνόλου τιμών αναζητούμε τις τιμές του $y$ για τις οποίες η $f(x)=y$ έχει λύση ως προς $x$ στο πεδίο ορισμού $Α$.
 
 $f(1)=f(-1)=0$ επομένως πεδίο τιμών $f(A)=0$
+
+
+[[Πάνω](#id-section-2-top), [Αρχική](./README.md)]
 
 ---
 
@@ -120,6 +129,9 @@ $\Leftrightarrow x=3$
 
 Επομένως το σύστημα έχει λύση $(3,f(3))$ ή $(3,2)$ 
 
+
+[[Πάνω](#id-section-2-top), [Αρχική](./README.md)]
+
 ---
 
 ## Άσκηση 2.5
@@ -137,6 +149,9 @@ $\Leftrightarrow x=3$
 * $g(x)=\dfrac{x-3}{x+2} \Rightarrow$ πεδίο ορισμού $(-\infty,-2)\cup(-2,+\infty)$
 
 Άρα $f(x)=g(x)$ στο $(-\infty,-2)\cup(-2,2)\cup(2,+\infty)$
+
+
+[[Πάνω](#id-section-2-top), [Αρχική](./README.md)]
 
 ---
 
@@ -170,6 +185,9 @@ $\Leftrightarrow x=3$
 Άρα $f(x)=g(x)$ στο $[1,+\infty)$
 
 
+
+[[Πάνω](#id-section-2-top), [Αρχική](./README.md)]
+
 ---
 
 ## Άσκηση 2.7
@@ -196,6 +214,9 @@ $$(g \circ f)(x) = |x+5| =
 
 Άρα $(g \circ f)(4) = 4+5=9$
 
+
+
+[[Πάνω](#id-section-2-top), [Αρχική](./README.md)]
 
 ---
 
@@ -231,6 +252,9 @@ $\Rightarrow f(x_1)<f(x_2)$
 $\Rightarrow$ Γνησίως αύξουσα
 
 
+
+[[Πάνω](#id-section-2-top), [Αρχική](./README.md)]
+
 ---
 
 ## Άσκηση 2.9
@@ -253,6 +277,9 @@ $$
 * Για $x_1, x_2 \geq 0, \; x_1<x_2 \Rightarrow x_1^2 < x_2^2 \Rightarrow f(x_1) < f(x_2) \rightarrow$ Γνησίως αύξουσα
 * Για $x_1 < 0 < x_2 \Rightarrow x_1 < x_2^2 \Rightarrow f(x_1) < f(x_2) \rightarrow$ Γνησίως αύξουσα
 
+
+
+[[Πάνω](#id-section-2-top), [Αρχική](./README.md)]
 
 
 [[Πάνω](#id-section-2-top), [Αρχική](./README.md)]
