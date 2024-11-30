@@ -31,6 +31,9 @@ https://vincenttam.github.io/javascripts/MathJaxLocal.js"></script>
 1. $\lvert\vec{\gamma}\rvert = \sqrt{x^2 + y^2} = \sqrt{0^2 + (-1)^2} = 1$
 
 
+
+[[Πάνω](#id-section-5-top), [Αρχική](./README.md)]
+
 ---
 
 ## Άσκηση 5.2
@@ -54,6 +57,9 @@ https://vincenttam.github.io/javascripts/MathJaxLocal.js"></script>
 1. $\lvert\vec{\gamma}\rvert = \sqrt{x^2 + y^2 + z^2} = \sqrt{2^2 + 2^2 + (-2)^2} = \sqrt{12}$
 
 
+
+[[Πάνω](#id-section-5-top), [Αρχική](./README.md)]
+
 ---
 
 ## Άσκηση 5.3
@@ -76,6 +82,9 @@ https://vincenttam.github.io/javascripts/MathJaxLocal.js"></script>
 1. $\vec{\alpha} \cdot \vec{\beta} = x_1 \cdot x_2 + y_1 \cdot y_2 = 0 \cdot (-1) + 7 \cdot 2 = 0+14=14$
 
 
+
+[[Πάνω](#id-section-5-top), [Αρχική](./README.md)]
+
 ---
 
 ## Άσκηση 5.4
@@ -97,6 +106,9 @@ https://vincenttam.github.io/javascripts/MathJaxLocal.js"></script>
 
 1. $\vec{\alpha} \cdot \vec{\beta} = x_1 \cdot x_2 + y_1 \cdot y_2  + z_1 \cdot z_2 = 0 \cdot 3+ (-1) \cdot 2 + 2 \cdot (-1) = 0 -2 -2 = -4$
 
+
+
+[[Πάνω](#id-section-5-top), [Αρχική](./README.md)]
 
 ---
 
@@ -122,6 +134,9 @@ $ \lVert \vec{\beta} \rVert = \sqrt{0^2 + 4^2} = \sqrt{16} = 4 $
 Έπειτα, υπολογίζουμε το $\cos(\theta)$:
 
 $\cos(\theta) = \frac{-8}{2\sqrt{2} \cdot 4} = - \frac{1}{\sqrt{2}} = - \frac{\sqrt{2}}{2}$
+
+
+[[Πάνω](#id-section-5-top), [Αρχική](./README.md)]
 
 ---
 
@@ -173,6 +188,9 @@ $$
 $$
 
 
+
+[[Πάνω](#id-section-5-top), [Αρχική](./README.md)]
+
 ---
 
 ## Άσκηση 5.7
@@ -198,6 +216,9 @@ $x^{2}+4 x+29=x^{2}-6 x+25 \Leftrightarrow$
 $10 x=-4 \Leftrightarrow$
 
 $x=-0.4$
+
+
+[[Πάνω](#id-section-5-top), [Αρχική](./README.md)]
 
 ---
 
@@ -241,6 +262,9 @@ $$
 |\vec{\delta}|=|\vec{\alpha}-2 \vec{b}| \Leftrightarrow|\overrightarrow{\delta}|^{2}=(\vec{\alpha}-2 \vec{b})^{2}=\vec{\alpha}^{2}+4 \vec{b}^{2}=5|\vec{\alpha}|^{2}
 $$
 
+
+
+[[Πάνω](#id-section-5-top), [Αρχική](./README.md)]
 
 ---
 
@@ -286,6 +310,9 @@ $$
 cos(\vec{\gamma} \; \hat{,} \; \vec{\delta})=\frac{2 \cdot \sqrt{7}}{7} 
 $$
 
+
+[[Πάνω](#id-section-5-top), [Αρχική](./README.md)]
+
 ---
 
 ## Άσκηση 5.10
@@ -317,6 +344,9 @@ $$
 $$
 
 
+
+
+[[Πάνω](#id-section-5-top), [Αρχική](./README.md)]
 
 ---
 
@@ -359,6 +389,9 @@ $$\vec{\delta}=\left(-\frac{8}{\sqrt{80}},-\frac{4}{\sqrt{80}}, 0\right)$$
 
 $$\vec{\delta}=\left(\frac{8}{\sqrt{80}}, \frac{4}{\sqrt{80}}, 0\right) $$
 
+
+[[Πάνω](#id-section-5-top), [Αρχική](./README.md)]
+
 ---
 
 ## Άσκηση 5.12
@@ -389,4 +422,6 @@ $cos \cdot \vec{B}=\frac{(-1) \cdot 1+(-2)(-1)+2 \cdot 4}{\sqrt{(-1)^{2}+(-1)^{2
 $\Gamma = 180-90-45=45^o$
 
 
-[επιστροφή στα περιεχόμενα](./README.md)
+[[Πάνω](#id-section-5-top), [Αρχική](./README.md)]
+
+---

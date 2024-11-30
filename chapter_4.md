@@ -32,6 +32,9 @@ F(1)=2
 \end{aligned}
 $$
 
+
+[[Πάνω](#id-section-4-top), [Αρχική](./README.md)]
+
 ---
 
 ## Άσκηση 4.2
@@ -57,6 +60,9 @@ f(2)=7 \cdot 2^3+2^2+2 c_1+c_2=7 \Rightarrow 2 c_1+c_2=-5
 \end{aligned}
 $$
 
+
+
+[[Πάνω](#id-section-4-top), [Αρχική](./README.md)]
 
 ---
 
@@ -84,6 +90,9 @@ $$ \int \frac{\sqrt{x}+1}{x} d x=\int\left(\frac{1}{\sqrt{x}}+\frac{1}{x}\right)
 
 
 
+
+[[Πάνω](#id-section-4-top), [Αρχική](./README.md)]
+
 ---
 
 ## Άσκηση 4.4
@@ -109,6 +118,9 @@ $$
 $$
 
 
+
+[[Πάνω](#id-section-4-top), [Αρχική](./README.md)]
+
 ---
 
 ## Άσκηση 4.5
@@ -129,6 +141,9 @@ $$
 \end{aligned}
 $$
 
+
+
+[[Πάνω](#id-section-4-top), [Αρχική](./README.md)]
 
 ---
 
@@ -158,6 +173,9 @@ $$
 $$
 
 
+
+[[Πάνω](#id-section-4-top), [Αρχική](./README.md)]
+
 ---
 
 ## Άσκηση 4.7
@@ -185,6 +203,9 @@ $$
 $$
 
 
+
+[[Πάνω](#id-section-4-top), [Αρχική](./README.md)]
+
 ---
 
 ## Άσκηση 4.8
@@ -211,6 +232,9 @@ $$
 \end{aligned}
 $$
 
+
+[[Πάνω](#id-section-4-top), [Αρχική](./README.md)]
+
 ---
 
 ## Άσκηση 4.9
@@ -233,6 +257,9 @@ $$
 & \int \frac{x}{1+x^2} d x=\frac{1}{2} \int \frac{1}{u} d u=\frac{1}{2} \ln |u|+c=\frac{1}{2} \ln \left(1+x^2\right)+c
 \end{aligned}
 $$
+
+
+[[Πάνω](#id-section-4-top), [Αρχική](./README.md)]
 
 ---
 
@@ -257,6 +284,9 @@ $$
 \end{aligned}
 $$
 
+
+[[Πάνω](#id-section-4-top), [Αρχική](./README.md)]
+
 ---
 
 ## Άσκηση 4.11
@@ -279,6 +309,9 @@ $$
 & \int_0^1 x^2 e^{x^3+1} d x=\frac{1}{3} \int_1^2 e^u d u=\frac{1}{3}\left[e^u\right]_1^2=\frac{1}{3}\left(e^2-e\right)
 \end{aligned}
 $$
+
+
+[[Πάνω](#id-section-4-top), [Αρχική](./README.md)]
 
 ---
 
@@ -312,6 +345,9 @@ $$
 \end{aligned}
 $$
 
+
+[[Πάνω](#id-section-4-top), [Αρχική](./README.md)]
+
 ---
 
 ## Άσκηση 4.13
@@ -337,4 +373,6 @@ $$
 $$\int_0^2 x \sqrt{4-x^2} d x=-\frac{1}{2} \int_4^0 \sqrt{u} d u=\frac{1}{2} \int_0^4 \sqrt{u} d u=\frac{1}{2}\left[\frac{u^{3 / 2}}{\frac{3}{2}}\right]_0^4=\frac{1}{2} \frac{2}{3} \sqrt{4^3}=\frac{8}{3}$$
 
 
-[επιστροφή στα περιεχόμενα](./README.md)
+[[Πάνω](#id-section-4-top), [Αρχική](./README.md)]
+
+---

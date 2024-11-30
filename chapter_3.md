@@ -34,6 +34,9 @@ $$f^{\prime}(x)=\dfrac{1}{2 \sqrt{x}} \Rightarrow$$
 
 $$f^{\prime}(4)=\frac{1}{2 \sqrt{4}}=\frac{1}{4}$$
 
+
+[[Πάνω](#id-section-3-top), [Αρχική](./README.md)]
+
 ---
 
 ## Άσκηση 3.2
@@ -54,6 +57,9 @@ $$  = 2 x \ln x+\frac{x^{2}+1}{x} \Rightarrow $$
 
 $$f^{\prime}(1)=2 \cdot 1 \ln 1+\frac{1+1}{1}=2 \cdot 0+2=2$$
 
+
+
+[[Πάνω](#id-section-3-top), [Αρχική](./README.md)]
 
 ---
 
@@ -81,6 +87,9 @@ $$f^{\prime}(x)=\frac{1}{x^{2}-1}\left(x^{2}-1\right)^{\prime}=\frac{2 x}{x^{2}-
 $$ f(x)=\sqrt{2 x^{2}-x+3} $$
 
 $$ f^{\prime}(x)=\left(\sqrt{2 x^{2}-x+3}\right)^{\prime}=\frac{1}{2 \sqrt{2 x^{2}-x+3}}\left(2 x^{2}-x+3\right)^{\prime}=\frac{4 x-1}{2 \sqrt{2 x^{2}-x+3}}$$
+
+
+[[Πάνω](#id-section-3-top), [Αρχική](./README.md)]
 
 ---
 
@@ -126,6 +135,9 @@ $$\lim _{x \rightarrow 3^{+}} \frac{f(x)-t(3)}{x-3}=\lim _{x \rightarrow 3^{+}} 
 
 Επομένως η $f$ δεν είναι παραγωγίσιμη στο $x_0=3$
 
+
+[[Πάνω](#id-section-3-top), [Αρχική](./README.md)]
+
 ---
 
 ## Άσκηση 3.5
@@ -168,6 +180,9 @@ f  &              & \searrow & | & \nearrow &| &\searrow &\\
 $$
 
 Επομένως η $f$ είναι γνησίως αύξουσα στο διάστημα $[-1,1]$ και γνησίως φθίνουσα στο διάστημα $(-\infty, -1]$ και στο $[1,+\infty)$
+
+
+[[Πάνω](#id-section-3-top), [Αρχική](./README.md)]
 
 ---
 
@@ -270,6 +285,9 @@ $$
 Για $x=0$, $f(0)=0$ επομένως το σημείο τομής με τους άξονες είναι το (0,0).
 
 
+
+[[Πάνω](#id-section-3-top), [Αρχική](./README.md)]
+
 ---
 
 ## Άσκηση 3.7
@@ -322,6 +340,9 @@ $$
 
 
 
+
+[[Πάνω](#id-section-3-top), [Αρχική](./README.md)]
+
 ---
 
 ## Άσκηση 3.8
@@ -349,6 +370,9 @@ $$\lim _{x \rightarrow+\infty} \frac{\ln x}{x^{k}}=
 \lim _{x \rightarrow+\infty} \frac{1}{k x^{k}}=0
 $$
 
+
+[[Πάνω](#id-section-3-top), [Αρχική](./README.md)]
+
 ---
 
 ## Άσκηση 3.9
@@ -370,4 +394,6 @@ $$
 \frac{4}{7}
 $$
 
-[επιστροφή στα περιεχόμενα](./README.md)
+[[Πάνω](#id-section-3-top), [Αρχική](./README.md)]
+
+---

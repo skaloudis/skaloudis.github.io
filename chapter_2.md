@@ -252,6 +252,7 @@ $$
 * Για $x_1 < 0 < x_2 \Rightarrow x_1 < x_2^2 \Rightarrow f(x_1) < f(x_2) \rightarrow$ Γνησίως αύξουσα
 
 
----
 
-[Επιστροφή στην αρχική σελίδα](./README.md)
+[[Πάνω](#id-section-2-top), [Αρχική](./README.md)]
+
+---
