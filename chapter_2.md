@@ -6,7 +6,7 @@ https://vincenttam.github.io/javascripts/MathJaxLocal.js"></script>
 
 # Κεφάλαιο 2 - ΄Ορια Συναρτήσεων
 
-[επιστροφή στα περιεχόμενα](./README.md)
+[Αρχική](./README.md)
 
 
 
@@ -39,7 +39,7 @@ $\Rightarrow \frac{2}{x_1-1} > \frac{2}{x_2-1}$
 
 $\Rightarrow f(x_1)>f(x_2) \rightarrow$ Γνησίως φθίνουσα
 
-[Επιστροφή στην αρχή της σελίδας](#id-section-2-top)
+[[Πάνω](#id-section-2-top), [Αρχική](./README.md)]
 
 ---
 
@@ -130,8 +130,9 @@ $\Leftrightarrow x=3$
 
 **Λύση**
 
-* $f(x)=\dfrac{x^2-5x+6}{x^2-4}=\dfrac{(x-2)(x-3)}{(x-2)(x+2)}=\dfrac{x-3}{x+2} \Rightarrow$ </br>
-πεδίο ορισμού $(-\infty,-2)\cup(-2,2)\cup(2,+\infty)$
+* $f(x)=\dfrac{x^2-5x+6}{x^2-4}=\dfrac{(x-2)(x-3)}{(x-2)(x+2)}=\dfrac{x-3}{x+2} \Rightarrow$
+
+ πεδίο ορισμού $(-\infty,-2)\cup(-2,2)\cup(2,+\infty)$
 
 * $g(x)=\dfrac{x-3}{x+2} \Rightarrow$ πεδίο ορισμού $(-\infty,-2)\cup(-2,+\infty)$
 
@@ -148,17 +149,23 @@ $\Leftrightarrow x=3$
 **Λύση**
 
 
-* $f(x)=\dfrac{\sqrt{x-1}}{\sqrt{x}}=\sqrt{\dfrac{x-1}{x}}$ </br>
- Θα πρέπει $x-1 \geq 0$ και $x>0$. </br>
- Άρα $x \geq 1$ και $x>0$. </br>
+* $f(x)=\dfrac{\sqrt{x-1}}{\sqrt{x}}=\sqrt{\dfrac{x-1}{x}}$
+
+ Θα πρέπει $x-1 \geq 0$ και $x>0$. 
+
+ Άρα $x \geq 1$ και $x>0$.
+
  Συνεπώς το πεδίο ορισμού είναι το $[1,+\infty)$
 
-* $g(x)=\sqrt{\dfrac{x-1}{x}}$.  </br>
-Θα πρέπει $x \neq 0$ και $\dfrac{x-1}{x} \geq 0$ </br>
-$\Rightarrow x(x-1) \geq 0$  </br>
-$\Rightarrow x<0$ και $x\geq1$
+* $g(x)=\sqrt{\dfrac{x-1}{x}}$.
 
-Συνεπώς το πεδίο ορισμού είναι το $(-\infty,0)\cap[1,+\infty)$
+ Θα πρέπει $x \neq 0$ και $\dfrac{x-1}{x} \geq 0$
+
+ $\Rightarrow x(x-1) \geq 0$
+
+ $\Rightarrow x<0$ και $x\geq1$
+
+ Συνεπώς το πεδίο ορισμού είναι το $(-\infty,0)\cap[1,+\infty)$
 
 Άρα $f(x)=g(x)$ στο $[1,+\infty)$
 
@@ -169,7 +176,7 @@ $\Rightarrow x<0$ και $x\geq1$
 
 **Περιγραφή**
 
-Αν $f(x)=x+5$ και $g(x)=|x|$ να βρείτε την $(g \circ f)(4)$
+Αν $f(x)=x+5$ και $g(x)= \lvert x \rvert $ να βρείτε την $(g \circ f)(4)$
 
 **Λύση**
 
@@ -229,10 +236,13 @@ $\Rightarrow$ Γνησίως αύξουσα
 **Περιγραφή**
 
 Να βρεθεί η μονοτονία της συνάρτησης 
-$$f(x)=\left\{ \begin{aligned}
+
+$$
+f(x)=\left\{ \begin{aligned}
 & x, \; x<0  \\
 & x^2, \; x \geq 0 \\
-\end{aligned} \right.$$
+\end{aligned} \right.
+$$
 
 **Λύση**
 
