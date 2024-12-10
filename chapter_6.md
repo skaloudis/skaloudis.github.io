@@ -331,3 +331,85 @@ $$
 [[Πάνω](#id-section-6-top), [Αρχική](./README.md)]
 
 ---
+
+
+## Άσκηση 6.7
+
+**Περιγραφή**
+
+Να βρεθεί ο αντίστροφος του πίνακα Α 
+
+$$
+A=\left[\begin{array}{cc}
+4 & 3 \\
+3 & 2
+\end{array} \right]
+$$
+
+**Λύση**
+
+Έστω ότι ο αντίστροφος πίνακας $A^{-1}$ ισούται με:
+
+$$
+A^{-1}=\left[\begin{array}{cc}
+x & y \\
+z & w
+\end{array} \right]
+$$
+
+συνεπώς θα πρέπει να ισχύει 
+$A \cdot A^{-1} = I_2 \Rightarrow$
+
+$$
+\left[\begin{array}{cc}
+4 & 3 \\
+3 & 2
+\end{array} \right]
+\left[\begin{array}{cc}
+x & y \\
+z & w
+\end{array} \right]
+=
+\left[\begin{array}{cc}
+1 & 0 \\
+0 & 1
+\end{array} \right]
+\Rightarrow
+$$
+
+$$
+\left[\begin{array}{cc}
+4x+3y & 4y+3w \\
+3x+2z & 3y+2w
+\end{array} \right]
+=
+\left[\begin{array}{cc}
+1 & 0 \\
+0 & 1
+\end{array} \right]
+\Rightarrow
+$$
+
+* $4x+3y=1$
+* $4y+3w=0$
+* $3x+2z=0$
+* $3y+2w=1$
+
+Από το παραπάνω σύστημα εξισώσεων προκύπτει ότι:
+* $x=-2$
+* $y=3$
+* $z=3$
+* $w=-4$
+
+Συνεπώς ο αντίστροφος πίνακας ισούται με:
+
+$$
+A^{-1}=\left[\begin{array}{cc}
+-2 & 3 \\
+3 & -4
+\end{array} \right]
+$$
+
+[[Πάνω](#id-section-6-top), [Αρχική](./README.md)]
+
+---
